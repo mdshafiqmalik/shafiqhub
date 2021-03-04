@@ -1,0 +1,16 @@
+.Div404{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  /* height: 100vh; */
+  background-color: orange;
+  padding: 170px 0 140px 0;
+}
+.errorMessage span{
+  /* color: white; */
+  font-weight: bolder;
+  font-size: 2rem;
+}
+.redirectMessage{
+  text-transform: full-width;
+}

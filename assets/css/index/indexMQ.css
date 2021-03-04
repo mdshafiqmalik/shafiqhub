@@ -1,0 +1,237 @@
+@media (max-width: 1189px){
+  #blogAuthor{
+    grid-gap: 2rem;
+  }
+  #qoute{
+    font-size: 25px;
+    }
+  #qouteWriter{
+    font-size: 25px;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+  #qouteHeading{
+    font-size: 30px;
+  }
+  /* Main Body */
+    #HeroSectionRow{
+      margin-top: 150px;
+    }
+}
+@media (max-width: 991.98px) {
+  .FAQsection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #HeroSectionRow .dailyQoutes{
+    height: auto;
+    margin-top: 1rem;
+  }
+  #authorDetail span{
+    text-align: center;
+  }
+  #authorDetail p{
+    text-align: center;
+  }
+  #blogAuthor{
+    margin: 10px 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: .2rem;
+  }
+  .authorCred{
+    box-shadow: none;
+    border-bottom: 1px solid;
+  }
+  #authorDetail{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .authorPic{
+    width: 250px;
+    height: 250px;
+  }
+  .tabs{
+    font-size: 1rem;
+  }
+  .tagsSection{
+      padding:0px 0px;
+  }
+
+  /* - -::Main Body */
+  .dailyQoutes{
+    padding: 0px;
+  }
+  .postBody .title{
+    font-size: 20px;
+  }
+  .postBody  .authorName{
+    font-size: 13px;
+  }
+  #writtenBy, #on{
+    font-size: 15px;
+  }
+  .subscribeFormDiv{
+    margin: 10px auto;
+  }
+
+  /* Navbar */
+  #Home{
+    color: red;
+    border: 0;
+  }
+}
+@media (max-width: 767.98px) {
+
+  .FAQsection h2{
+    font-size: 2rem;
+  }
+  .FAQ{
+    grid-template-columns: 1fr;
+  }
+  .blogsContainer{
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .whatHelp{
+        padding: 0rem .6rem;
+  }
+  .whatToDo{
+    display: grid;
+    grid-template-columns: 1fr 10fr 2fr 10fr 1fr;
+  }
+  #subsName, #subsEmail{
+    width: auto;
+  }
+  .container{
+    padding: 0px 5px;
+  }
+  #qoute{
+    font-size: 24px;
+    }
+  #qouteWriter{
+    font-size: 24px;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+  #qouteHeading{
+    font-size: 26px;
+  }
+
+
+  .HeroSection #HeroSectionRow{
+    margin-top: 5rem;
+  }
+  .topSubscribe button{
+    padding: 0px 20px;
+  }
+  .topSubscribe input[type="text"]{
+    width: 340px;
+  }
+  .postTags{
+    padding: 2px 25px;
+    font-size: 26px;
+  }
+  .description{
+    color: #111;
+  }
+  .buttons{
+    color: darkblue;
+  }
+}
+@media (max-width: 575.98px) {
+  .Blogs{
+    font-size: .9rem;
+  }
+  .bloglinks a{
+    font-size: .6rem;
+  }
+  /* Author Detail */
+  #authorDetail, p{
+    font-size: 1.1rem;
+  }
+
+  .tabs{
+    font-size: .8rem;
+    padding:.5rem 0rem;
+  }
+
+  .whatHelp .whatHelpTitle{
+    font-size: 1rem;
+  }
+  /* Buttons */
+  .topButtons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .topButtons a{
+        margin: 20px 0 0 0;
+  }
+  .topButtons button{
+    margin: 0;
+  }
+  .topButtons button::after, .topButtons a::after{
+    display:inline;
+  }
+  .topButtons button::after{
+  top: 60%;
+   }
+  #qoute{
+    font-size: 20px;
+    }
+  #qouteWriter{
+    margin-left: 35px;
+    font-size: 20px;
+  }
+  #qouteHeading{
+    font-size: 22px;
+    font-family: serif;
+  }
+  .buttons{
+    display: inline-block;
+    padding-left: 10px;
+  }
+  .tagsSection{
+      padding:0;
+  }
+}
+@media (max-width: 440px) {
+  #qouteWriter{
+    margin-left: 0;
+    margin-top: 20px;
+  }
+  .tags a{
+    font-size: 15px;
+  }
+
+  .buttons{
+    display: inline-block;
+    float: left;
+    margin-left: 20px;
+    margin-right: 0;
+  }
+  .postBody .authorName{
+    display: inline-block;
+  }
+}
+@media (max-width: 290px){
+  .Blogs{
+    font-size: .6rem;
+  }
+  .bloglinks a{
+    font-size: .5rem;
+  }
+  .blogsContainer{
+    grid-template-columns: 1fr;
+  }
+  .whatHelp .whatHelpTitle{
+    border: 0;
+  }
+}
