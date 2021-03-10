@@ -2,7 +2,10 @@
   display: flex;
   text-align: center;
   justify-content: center;
+<<<<<<< HEAD
   /* height: 100vh; */
+=======
+>>>>>>> 76a1e8298712f3fa3f41964c37ec5f8d111e0e4a
   background-color: orange;
   padding: 170px 0 140px 0;
 }

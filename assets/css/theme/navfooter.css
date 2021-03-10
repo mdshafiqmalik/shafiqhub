@@ -243,7 +243,11 @@ nav.custom {
 
 footer {
   background: var(--thBlack);
+<<<<<<< HEAD
   margin-top:1rem;
+=======
+
+>>>>>>> 76a1e8298712f3fa3f41964c37ec5f8d111e0e4a
 }
 footer .n-l {
   padding: 50px 0;
