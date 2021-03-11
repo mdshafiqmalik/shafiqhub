@@ -18,3 +18,6 @@ function toogleAnswer(FAQID){
     FaQS.style.borderBottom = "2px solid grey";
   }
 }
+function goTo(link){
+  window.location = `./${link}`;
+}
