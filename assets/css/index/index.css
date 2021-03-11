@@ -167,7 +167,6 @@
 }
 /* Tags Section */
 .tagsSection{
-    /* border: 1px solid white; */
     margin-bottom: 20px;
     padding:0px 150px;
 }
@@ -186,7 +185,6 @@
 .tags{
   padding-top: 10px;
   padding-bottom: 5px;
-  /* display: flex; */
   justify-content: center;
 }
 .tags a{
@@ -329,11 +327,7 @@ color: rgb(42, 163, 38);
 }
 #contactMe p i{
   color: '#01acee';
-  /* background-color: indigo; */
   margin-left: 1rem;
-  /* border: 1px solid #111; */
-  /* padding: .8rem; */
-  /* border-radius: 50%; */
 }
 .mailIcon{
     color:indigo;
@@ -391,13 +385,12 @@ color: rgb(42, 163, 38);
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 1rem;
   height: auto;
-  /* border: 1px solid; */
 }
 .Blogs{
   padding: 1rem 1rem 0rem 1rem;
   font-weight: bolder;
   font-size: 1.5rem;
-  background-color: #ded;
+  background-color: #ddd;
 }
 .Blogs .bloglinks{
   text-align: right;
@@ -417,7 +410,6 @@ color: rgb(42, 163, 38);
 .FAQ{
   max-width: 1000px;
   margin: 2rem 0rem;
-  /* display: inline-block; */
 }
 .FAQS{
   margin-bottom: 1rem;
@@ -431,13 +423,11 @@ color: rgb(42, 163, 38);
   display: inline-block;
   font-size: 1.2rem;
   font-weight: bold;
-  /* border-bottom: 1px solid grey; */
 }
 .rotate::before{
   transform: rotateZ(49deg);
 }
 .questions::before{
-  /*transform: rotateZ(-90deg); */
   display: inline-block;
   content: "+";
   transition: rotate ease 1s;

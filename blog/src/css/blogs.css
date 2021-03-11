@@ -73,8 +73,6 @@ nav{
   padding: 10px 0px;
   font-weight: bold;
   font-size: 19px;
-  /* text-decoration: underline; */
-  /* text-decoration-color: lime; */
   color: white;
   transition: ease .6s;
 }
@@ -101,7 +99,6 @@ nav{
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 1rem;
   height: auto;
-  /* border: 1px solid; */
 }
 .Blogs{
   padding: 1rem 1rem .4rem 1rem;

@@ -26,7 +26,6 @@
     right: 0;
     height: 60px;
     background: indigo;
-    /*border-bottom: 1px solid var(--thBorderColor);*/
     z-index: -1;
   }
 
@@ -108,7 +107,6 @@
     text-decoration: none !important;
     font-weight: bold;
     background: transparent;
-    /* background: #f3f5f9; */
     -webkit-transition: all .2s linear;
     transition: all .2s linear;
   }
