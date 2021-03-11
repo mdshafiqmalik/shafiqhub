@@ -394,16 +394,17 @@ color: rgb(42, 163, 38);
   /* border: 1px solid; */
 }
 .Blogs{
-  padding: 1rem;
+  padding: 1rem 1rem 0rem 1rem;
   font-weight: bolder;
   font-size: 1.5rem;
-    background-color: #ddd;
+  background-color: #ded;
 }
 .Blogs .bloglinks{
   text-align: right;
   width: 100%;
   display: inline-block;
   font-size: 1rem;
+  margin-bottom: .5rem;
 }
 
 

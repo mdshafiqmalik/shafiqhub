@@ -76,9 +76,11 @@ nav{
   /* text-decoration: underline; */
   /* text-decoration-color: lime; */
   color: white;
+  transition: ease .6s;
 }
 .blogDetail a:hover{
-  color: orange;
+  color: blue;
+  text-decoration: none;
 }
 
 /* Categories */
@@ -102,10 +104,10 @@ nav{
   /* border: 1px solid; */
 }
 .Blogs{
-  padding: 1rem;
+  padding: 1rem 1rem .4rem 1rem;
   font-weight: bolder;
   font-size: 1.5rem;
-    background-color: #ddd;
+  background-color: #ddd;
 }
 .Blogs .bloglinks{
   text-align: right;
@@ -117,5 +119,5 @@ nav{
 
 .LoadMore{
   text-align: center;
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
