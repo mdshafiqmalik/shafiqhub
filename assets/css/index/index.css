@@ -390,19 +390,22 @@ color: rgb(42, 163, 38);
 .Blogs{
   display: grid;
   grid-template-rows: 1.5fr .4fr;
+
   font-weight: bolder;
   font-size: 1.5rem;
-  background-color: #eee;
+ /* background-color: #eee;*/
 }
 .blogTitle{
+box-shadow: 0px 0px 3px 1.5px grey;
   padding: 1rem 1rem .4rem 1rem;
 }
 .bloglinks{
-  border-top: 5px solid white;
-  display:flex;
-  align-content:center;
+    display:flex;
+    margin-top:.6rem;
+box-shadow: 0px 0px 3px 1.5px grey;
+  /*border-top: 5px solid white;*/
   padding: .3rem;
-  text-align: right;
+  align-items: right;
   font-size: 1rem;
 }
 
