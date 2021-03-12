@@ -396,7 +396,8 @@ color: rgb(42, 163, 38);
   padding: 1rem 1rem .4rem 1rem;
 }
 .bloglinks{
-  width: 100%;
+  text-align: right;
+  border: 1px solid;
   font-size: 1rem;
 }
 
