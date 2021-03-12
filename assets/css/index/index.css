@@ -389,7 +389,7 @@ color: rgb(42, 163, 38);
 }
 .Blogs{
   display: grid;
-  grid-template-rows: 3fr .5fr;
+  grid-template-rows: 1.5fr .5fr;
   font-weight: bolder;
   font-size: 1.5rem;
   background-color: #eee;
