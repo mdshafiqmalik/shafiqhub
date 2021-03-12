@@ -1,6 +1,5 @@
 # Shafiq Hub
-
-This project is used to manage the content for website Shafiq Hub. Here all collaboraters of Shafiq Hub will put their content for the review purpose.
+Shafiq Hub website is made with the focus on helping others new blogger to build their sucessive carrier in blogging world.
 
 
 
