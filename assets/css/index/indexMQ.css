@@ -19,12 +19,6 @@
     }
 }
 @media (max-width: 991.98px) {
-  .FAQsection{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
   #HeroSectionRow .dailyQoutes{
     height: auto;
     margin-top: 1rem;
@@ -38,8 +32,10 @@
   #blogAuthor{
     margin: 10px 0;
     display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: .2rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-row-start:
+    grid-gap: 3rem;
   }
   .authorCred{
     box-shadow: none;
@@ -87,7 +83,10 @@
   }
 }
 @media (max-width: 767.98px) {
-
+  #blogAuthor{
+    grid-gap: 1rem;
+    grid-template-columns: 1fr ;
+  }
   .FAQsection h2{
     font-size: 2rem;
   }
