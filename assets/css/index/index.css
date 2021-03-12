@@ -397,9 +397,6 @@ color: rgb(42, 163, 38);
 .blogTitle{
   padding: 1rem 1rem .4rem 1rem;
 }
-.blogImage{
-  background-color: skyblue;
-}
 .bloglinks{
   border-top: 5px solid white;
   display:flex;
