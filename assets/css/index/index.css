@@ -389,7 +389,7 @@ color: rgb(42, 163, 38);
 }
 .Blogs{
   display: grid;
-  grid-template-rows: .8fr 1.5fr .5fr;
+  grid-template-rows: 1.5fr 1.5fr .5fr;
   font-weight: bolder;
   font-size: 1.5rem;
   background-color: #eee;
@@ -397,7 +397,11 @@ color: rgb(42, 163, 38);
 .blogTitle{
   padding: 1rem 1rem .4rem 1rem;
 }
+.blogImage{
+  background-color: skyblue;
+}
 .bloglinks{
+  border-top: 5px solid white;
   padding: .3rem .8rem .6rem 0rem;
   text-align: right;
   font-size: 1rem;
