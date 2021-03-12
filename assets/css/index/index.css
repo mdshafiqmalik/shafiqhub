@@ -380,6 +380,7 @@ color: rgb(42, 163, 38);
   background-color: orange;
 }
 .blogsContainer{
+  position: relative;
   margin: 10px auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -387,15 +388,15 @@ color: rgb(42, 163, 38);
   height: auto;
 }
 .Blogs{
-  padding: 1rem 1rem .4rem 1rem;
   font-weight: bolder;
   font-size: 1.5rem;
   background-color: #eee;
 }
-.Blogs .bloglinks{
-  text-align: bottom;
+.blogTitle{
+  padding: 1rem 1rem .4rem 1rem;
+}
+.bloglinks{
   width: 100%;
-  display: inline-block;
   font-size: 1rem;
 }
 
