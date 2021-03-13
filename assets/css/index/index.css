@@ -405,11 +405,12 @@ color: rgb(42, 163, 38);
   padding: .3rem 1rem;
   font-size: 1rem;
 }
+
 .bloglinks a::after{
   margin-left: .5rem;
   content: '\f138';
   font-weight: bolder;
-  color: skyblue;
+  color: rgb(0,123,255);
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
   font: normal normal normal 14px/1 FontAwesome;
@@ -421,7 +422,7 @@ color: rgb(42, 163, 38);
   text-decoration: none;
 }
 .bloglinks a:hover::after{
-  color: #66f;
+  color: #44f;
 }
 /* FAQ Section */
 .FAQsection h2{
