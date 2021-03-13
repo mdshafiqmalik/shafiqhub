@@ -120,6 +120,7 @@ nav{
   padding: .3rem 1rem;
   font-size: 1rem;
 }
+
 .bloglinks a::after{
   margin-left: .5rem;
   content: '\f138';
@@ -128,9 +129,12 @@ nav{
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
   font: normal normal normal 14px/1 FontAwesome;
-  font-size: 23px;
+  font-size: 1.1rem;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
+}
+.bloglinks a:hover{
+  text-decoration: none;
 }
 .bloglinks a:hover::after{
   color: #66f;
