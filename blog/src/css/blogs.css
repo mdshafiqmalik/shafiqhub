@@ -114,21 +114,19 @@ nav{
 }
 .bloglinks{
   display:flex;
+  justify-content: center;
   flex-direction: row-reverse;
   margin-top:.6rem;
   padding: .3rem 1rem;
   font-size: 1rem;
 }
 .bloglinks a::after{
-  position: relative;
+  margin-left: .5rem;
   content: '\f138';
   font-weight: bolder;
   color: skyblue;
-  right: -6px;
-  top: 55%;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
-  display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
   font-size: 23px;
   text-rendering: auto;
