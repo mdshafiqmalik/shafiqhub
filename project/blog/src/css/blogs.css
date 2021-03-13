@@ -69,10 +69,10 @@ nav{
   background-color: #ddd;
   color: blue;
 }
-.blogDetail a{
+.blogDetail a, .blogDetail p{
   padding: 10px 0px;
   font-weight: bold;
-  font-size: 19px;
+  font-size: 1rem;
   color: white;
   transition: ease .6s;
 }
@@ -101,19 +101,42 @@ nav{
   height: auto;
 }
 .Blogs{
-  padding: 1rem 1rem .4rem 1rem;
-  font-weight: bolder;
+  display: grid;
+  grid-template-rows: 1.5fr .4fr;
+  font-weight: 600;
   font-size: 1.5rem;
-  background-color: #ddd;
 }
-.Blogs .bloglinks{
-  text-align: right;
-  width: 100%;
-  display: inline-block;
+.blogTitle, .bloglinks{
+    box-shadow: 0px 0px 1.3px .8px grey;
+}
+.blogTitle{
+  padding: 1rem 1rem .4rem 1rem;
+}
+.bloglinks{
+  display:flex;
+  flex-direction: row-reverse;
+  margin-top:.6rem;
+  padding: .3rem 1rem;
   font-size: 1rem;
-
 }
-
+.bloglinks a::after{
+  position: relative;
+  content: '\f138';
+  font-weight: bolder;
+  color: skyblue;
+  right: -6px;
+  top: 55%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 23px;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+.bloglinks a:hover::after{
+  color: #66f;
+}
 .LoadMore{
   text-align: center;
   font-size: 1rem;
