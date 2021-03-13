@@ -1,0 +1,52 @@
+@media (max-width: 991.98px) {
+  #Blogs{
+    color: red;
+    border: 0;
+  }
+  .topSection{
+    background-position: right;
+  }
+}
+@media (max-width:767.98px){
+  .blogsContainer{
+    grid-template-columns: 1fr 1fr;
+  }
+  .blogDetail{
+    text-align: left;
+    grid-template-columns: 1fr 1fr;
+  }
+  .blogDetail a{
+    font-size:1.5rem;
+  }
+}
+@media (max-width: 575.98px){
+  .LoadMore{
+    text-align: center;
+    font-size: 1rem;
+  }
+  .Blogs{
+    font-size: .9rem;
+  }
+  .bloglinks a{
+    font-size: .8rem;
+  }
+  .blogDetail a{
+    font-size: 1rem;
+  }
+
+}
+
+@media (max-width: 290px){
+  .blogDetail{
+  grid-template-columns: 1fr;
+  }
+  .Blogs{
+    font-size: .6rem;
+  }
+  .bloglinks a{
+    font-size: .5rem;
+  }
+  .blogsContainer{
+    grid-template-columns: 1fr;
+  }
+}
