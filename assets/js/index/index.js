@@ -29,7 +29,6 @@ $("#subsSubmit").click(function(){
     let subsName = $("#subsName").val();
     let subsEmail = $("#subsEmail").val();
       let isValid = validateData(subsName, subsEmail);
-      console.log(isValid);
       if (!isValid) {
 
       }else {
@@ -39,16 +38,12 @@ $("#subsSubmit").click(function(){
       }
   });
 function validateData(name, email){
-  let vname = validateName(name);
-  let vmail = validateEmail(email);
-  console.log("Valid Name: "+vname);
-  console.log("Valid email: "+vmail);
   if (name.length == 0 || email.length == 0) {
     message.innerHTML = "All fields required";
     message.classList.add("statusWarning");
     message.classList.remove("statusSucess");
     return false;
-  }else if (vname && vmail) {
+  }else if (validateName(name) && validateEmail(email)) {
     return true;
   }else {
     return false;
