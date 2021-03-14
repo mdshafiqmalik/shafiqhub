@@ -33,7 +33,7 @@ $("#subsSubmit").click(function(){
       if (!isValid) {
 
       }else {
-        message.innerHTML = "Sucessfully Subscribed";
+        message.innerHTML = "We are working";
         message.classList.add("statusSucess");
         message.classList.remove("statusWarning");
       }
@@ -55,8 +55,9 @@ function validateData(name, email){
   }
 }
 function validateName(name){
-  if (name.length < 4) {
-    message.innerHTML = "Name is too short";
+  let isNum = parseInt(name);
+  if (name.length < 4 || Number.isInteger(isNum)) {
+    message.innerHTML = `Name is too short or a number`;
     message.classList.add("statusWarning");
     message.classList.remove("statusSucess");
     return false;
