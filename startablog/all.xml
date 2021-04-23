@@ -1,0 +1,82 @@
+<blogs>
+  <!-- Post 01  -->
+  <blog01>
+    <lastmod>29-12-2020</lastmod>
+    <link>https://www.shafiqhub.com/startablog/</link>
+    <title>What is a blog and how it works?</title>
+    <description>In this post I want to introduce you with the very fast growing blogging world. I will cover all the basic information about blogging and its working.</description>
+    <author>Mohd. Shafiq Malik</author>
+  </blog01>
+
+  <!-- Post 02 -->
+  <blog02>
+    <lastmod>29-12-2020</lastmod>
+    <link>https://www.shafiqhub.com/startablog/</link>
+    <title>Prerequisite for starting a blog.</title>
+    <description>In this post I want to introduce you with the very fast growing blogging world. I will cover all the basic information about blogging and its working.</description>
+    <author>Mohd. Shafiq Malik</author>
+  </blog02>
+
+  <!-- Post 03 -->
+  <blog03>
+    <lastmod>29-12-2020</lastmod>
+    <link>https://www.shafiqhub.com/startablog/</link>
+    <title>Satrting with CMS(Content Manaagement Software), like Wordpress, Blogger and Wix</title>
+    <description>In this post I want to introduce you with the very fast growing blogging world. I will cover all the basic information about blogging and its working.</description>
+    <author>Mohd. Shafiq Malik</author>
+  </blog03>
+
+  <!-- Post 04 -->
+  <blog04>
+    <lastmod>29-12-2020</lastmod>
+    <link>https://www.shafiqhub.com/startablog/</link>
+    <title>Starting with HTML, CSS and Javascript(Full customisable)</title>
+    <description>In this post I want to introduce you with the very fast growing blogging world. I will cover all the basic information about blogging and its working.</description>
+    <author>Mohd. Shafiq Malik</author>
+  </blog04>
+
+  <!-- Post 05 -->
+  <blog05>
+    <lastmod>29-12-2020</lastmod>
+    <link>https://www.shafiqhub.com/startablog/</link>
+    <title>Concept of Domain Name, Hosting and its working</title>
+    <description>In this post I want to introduce you with the very fast growing blogging world. I will cover all the basic information about blogging and its working.</description>
+    <author>Mohd. Shafiq Malik</author>
+  </blog05>
+
+  <!-- Post 06 -->
+  <blog06>
+    <lastmod>29-12-2020</lastmod>
+    <link>https://www.shafiqhub.com/startablog/</link>
+    <title>How to get a free domain name, hosting and getting started</title>
+    <description>In this post I want to introduce you with the very fast growing blogging world. I will cover all the basic information about blogging and its working.</description>
+    <author>Mohd. Shafiq Malik</author>
+  </blog06>
+
+  <!-- Post 07 -->
+  <blog07>
+    <lastmod>29-12-2020</lastmod>
+    <link>https://www.shafiqhub.com/startablog/</link>
+    <title>How to make logic of your website.</title>
+    <description>In this post I want to introduce you with the very fast growing blogging world. I will cover all the basic information about blogging and its working.</description>
+    <author>Mohd. Shafiq Malik</author>
+  </blog07>
+
+  <!-- Post 08 -->
+  <blog08>
+    <lastmod>29-12-2020</lastmod>
+    <link>https://www.shafiqhub.com/startablog/</link>
+    <title>Write contant for your blog</title>
+    <description>In this post I want to introduce you with the very fast growing blogging world. I will cover all the basic information about blogging and its working.</description>
+    <author>Mohd. Shafiq Malik</author>
+  </blog08>
+
+  <!-- Post 09 -->
+  <blog10>
+    <lastmod>29-12-2020</lastmod>
+    <link>https://www.shafiqhub.com/startablog/</link>
+    <title>Find a profitable niche for your blog</title>
+    <description>In this post I want to introduce you with the very fast growing blogging world. I will cover all the basic information about blogging and its working.</description>
+    <author>Mohd. Shafiq Malik</author>
+  </blog10>
+</blogs>
