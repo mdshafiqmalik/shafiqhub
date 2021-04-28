@@ -3,7 +3,6 @@
 // -- :: Loading Page
 $('#l-m').html("loading...");
 $(window).on('load', function () {
-
   $('#loading').fadeOut(1000);
   $('html').css('overflow-y', 'visible');
 });
