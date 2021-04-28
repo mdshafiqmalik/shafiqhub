@@ -2,6 +2,7 @@
 'use strict';
 // -- :: Loading Page
 $(window).on('load', function () {
+  $('#l-m').html("loading...");
   $('#loading').fadeOut(1000);
   $('html').css('overflow-y', 'visible');
 });
