@@ -1,3 +1,4 @@
+import "config.js";
 $(document).ready(function(){
     $('.answers').css('display', 'none');
 });
