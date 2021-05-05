@@ -86,7 +86,7 @@ function validateName(name){
   firebase.database().ref("/get/all/the/data").once("value", function (data) {
       console.log(data.val());
   });
-  var mykey = config.MY_KEY;
-  var secretkey = config.SECRET_KEY;
+  var mykey = configr.MY_KEY;
+  var secretkey = configr.SECRET_KEY;
   console.log(mykey);
   console.log(secretkey);
