@@ -1,2 +1,2 @@
-import apiConfig from './apikeys';
+import apiConfig from './apikeys.js';
 console.log(apiConfig.apiKey);
