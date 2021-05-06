@@ -107,10 +107,13 @@ nav{
   font-size: 1.5rem;
 }
 .Blogs {
-    box-shadow: 0px 0px 1.3px .8px grey;
+  background-image: url("../../../assets/images/bg/4.png");
+  background-position: center;
+  box-shadow: 0px 0px 1.3px .8px grey;
 }
 .blogTitle{
   padding: 1rem 1rem .4rem 1rem;
+  color: white;
 }
 .bloglinks{
   display:flex;
