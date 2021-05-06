@@ -38,7 +38,7 @@
   max-width: 1000px;
   margin-bottom: .6rem;
   font-size: 2.5rem;
-  -webkit-text-stroke: 1px lime;
+  -webkit-text-stroke: 1px orange;
   font-weight: bolder;
   text-transform: capitalize;
 }
@@ -127,7 +127,7 @@
     #postText{
         padding:0rem 1rem;
     }
-    
+
    .authorCred{
      grid-template-columns: 3fr 9fr;
    }
