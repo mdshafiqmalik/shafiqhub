@@ -1,3 +1,3 @@
 import apiConfig from './apikeys.js';
 console.log(apiConfig.apiKey);
-console.log("dsjfhui");
+console.log("switch");

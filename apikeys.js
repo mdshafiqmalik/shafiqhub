@@ -1,4 +1,4 @@
-module.exports =  apiConfig;
+module.exports =  { apiConfig };
 let apiConfig = {
     "apiKey": "AIzaSyCKjB8oCGQ6oBWTdUQea18vsJLIAsU5NFE",
     "authDomain": "shafiqhub-db.firebaseapp.com",
