@@ -52,16 +52,16 @@ $('nav').html(`<!-- top bar -->
         <!-- links -->
         <ul class="links list-unstyled mb-0 d-flex align-items-center justify-content-end">
           <li>
-            <a href="#aboutMe">About Me</a>
+            <a href="https://www.dashingbog.com/#aboutMe">About Me</a>
           </li>
           <li>
             <a href="mailto:shafiqhub@earnmore.tech?subject=Shafiq%20Hub%20Contact%20Us%20Mail">Contact Me </a>
           </li>
           <li>
-            <a href="./sitemap.xml">Sitemap</a>
+            <a href="https://www.dashingbog.com/sitemap.xml">Sitemap</a>
           </li>
           <li>
-            <a href="./terms-and-privacy.html">Terms & Privacy</a>
+            <a href="https://www.dashingbog.com/terms-and-privacy.html">Terms & Privacy</a>
           </li>
         </ul>
       </div>
@@ -72,7 +72,7 @@ $('nav').html(`<!-- top bar -->
 <div class="container">
   <!-- brand -->
   <a class="navbar-brand" href="index.html">
-    <img src="./assets/images/logoFile/logo-w.png" class="img-fluid d-lg-block d-block" alt="Shafiq Hub">
+    <img src="https://www.dashingbog.com/assets/images/logoFile/logo-w.png" class="img-fluid d-lg-block d-block" alt="Shafiq Hub">
   </a>
   <!-- toggler -->
   <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
@@ -89,15 +89,15 @@ $('nav').html(`<!-- top bar -->
 
       <!-- nav item -->
       <li class="nav-item">
-        <a class="nav-link nav-first-link" id="Home" href="index.html">Home</a>
+        <a class="nav-link nav-first-link" id="Home" href="https://www.dashingbog.com/index.html">Home</a>
       </li>
       <!-- nav item -->
       <li class="nav-item">
-        <a class="nav-link" id="Blogs" href="./blog/index.html">Blog</a>
+        <a class="nav-link" id="Blogs" href="https://www.dashingbog.com/blog/index.html">Blog</a>
       </li>
       <!-- nav item -->
       <li class="nav-item">
-        <a id="Newsletter" id="Newsletter" class="nav-link" href="#aboutMe">About Me</a>
+        <a id="Newsletter" id="Newsletter" class="nav-link" href="https://www.dashingbog.com/#aboutMe">About Me</a>
       </li>
       <!-- nav item -->
      <li class="nav-item d-lg-none">
