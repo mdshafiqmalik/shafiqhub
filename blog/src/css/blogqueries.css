@@ -27,18 +27,20 @@
     text-align: center;
     font-size: 1rem;
   }
+  .blogTitle{
+    background-image: url("../../../assets/images/bg/08.png");
+    background-position: center;
+  }
   .Blogs{
     font-size: .9rem;
     box-shadow: none;
+    background-image: none;
   }
   .blogTitle, .bloglinks{
     box-shadow: 0px 0px 1.3px .8px grey;
     justify-content: center;
   }
-  .blogTitle{
-    background-image: url("../../../assets/images/bg/4.png");
-    background-position: center;
-  }
+
   .bloglinks a{
     font-size: .8rem;
   }

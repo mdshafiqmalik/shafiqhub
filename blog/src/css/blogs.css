@@ -41,7 +41,9 @@ nav{
   font-family: arial;
 }
 .featuredPost .blogTitle{
-  /* color: navy; */
+  color: black;
+  background-image: none;
+  box-shadow: none;
   font-size: 30px;
   font-weight: bolder;
   text-transform: capitalize;
