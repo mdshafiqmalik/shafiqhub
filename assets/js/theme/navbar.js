@@ -37,7 +37,75 @@ document.addEventListener("DOMContentLoaded",function(){
     return false;
   }
 });
+$('nav').html(`<!-- top bar -->
+<div class="top-bar d-lg-block d-none">
+  <div class="container">
+    <div class="row">
+      <div class="col-6">
 
+        <div class="news">
+          <span class="stat text-uppercase">new</span>
+          <a href="#">Learn more about digital marketing, SEO, SEM techniques</a>
+        </div>
+      </div>
+      <div class="col-6">
+        <!-- links -->
+        <ul class="links list-unstyled mb-0 d-flex align-items-center justify-content-end">
+          <li>
+            <a href="#aboutMe">About Me</a>
+          </li>
+          <li>
+            <a href="mailto:shafiqhub@earnmore.tech?subject=Shafiq%20Hub%20Contact%20Us%20Mail">Contact Me </a>
+          </li>
+          <li>
+            <a href="./sitemap.xml">Sitemap</a>
+          </li>
+          <li>
+            <a href="./terms-and-privacy.html">Terms & Privacy</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- navbar content -->
+<div class="container">
+  <!-- brand -->
+  <a class="navbar-brand" href="index.html">
+    <img src="./assets/images/logoFile/logo-w.png" class="img-fluid d-lg-block d-block" alt="Shafiq Hub">
+  </a>
+  <!-- toggler -->
+  <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
+    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+    aria-label="Toggle navigation">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+
+  <!-- collapse menu -->
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+
+      <!-- nav item -->
+      <li class="nav-item">
+        <a class="nav-link nav-first-link" id="Home" href="index.html">Home</a>
+      </li>
+      <!-- nav item -->
+      <li class="nav-item">
+        <a class="nav-link" id="Blogs" href="./blog/index.html">Blog</a>
+      </li>
+      <!-- nav item -->
+      <li class="nav-item">
+        <a id="Newsletter" id="Newsletter" class="nav-link" href="#aboutMe">About Me</a>
+      </li>
+      <!-- nav item -->
+     <li class="nav-item d-lg-none">
+       <a class="nav-link" id="ContactUs" href="mailto:shafiqhub@earnmore.tech?subject=Shafiq%20Hub%20Contact%20Us%20Mail">Contact Me</a>
+    </li>
+    </ul>
+  </div>
+</div>`);
 $('footer').html(`<div class="row container">
       <div class= "row col-lg-6 col-md-7 col-sm-12 AboutUs">
         <!-- Content -->
