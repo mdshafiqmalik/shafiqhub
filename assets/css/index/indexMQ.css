@@ -145,7 +145,12 @@
     justify-content: center;
     box-shadow: 0px 0px 1.3px .8px grey;
   }
+  .blogTitle{
+    background-image: url("../../images/bg/4.png");
+    background-position: center;
+  }
   .Blogs{
+    background-image: none;
     box-shadow: none;
     font-size: .9rem;
   }
