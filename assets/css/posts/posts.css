@@ -73,12 +73,12 @@
   height:130px;
 }
 .postBody{
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   margin: auto;
   max-width: 1400px;
   padding: 0rem 3rem;
   font-family: sans sans-serif;
-  letter-spacing: 1px;
+  /*letter-spacing: 1px;*/
 }
 .postBody img{
     box-shadow: 0px 0px 2.2px 1.5px grey;
@@ -128,7 +128,7 @@
 
 @media (max-width: 767px){
     #postText, .postBody{
-        padding:0rem 1.4rem;
+        padding:0rem 1rem;
     }
 
    .authorCred{
@@ -136,6 +136,9 @@
    }
 }
 @media (max-width: 575.98px) {
+    #postTitle{
+        font-size:2.2rem;
+    }
   .blogsContainer{
     grid-template-columns: 1fr;
   }
