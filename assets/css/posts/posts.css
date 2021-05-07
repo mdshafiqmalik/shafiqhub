@@ -72,16 +72,19 @@
   width:130px;
   height:130px;
 }
-#postText{
+.postBody{
+  font-size: 1.6rem;
   margin: auto;
   max-width: 1400px;
   padding: 0rem 3rem;
-  font-weight: Normal;
-  font-size: 1.2rem;
-  font-style: normal;
   font-family: sans sans-serif;
   letter-spacing: 1px;
-  color: black;
+}
+.postBody img{
+    box-shadow: 0px 0px 2.2px 1.5px grey;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content:center;
 }
 .postEnd{
   max-width: 1400px;
@@ -124,8 +127,8 @@
 }
 
 @media (max-width: 767px){
-    #postText{
-        padding:0rem 1rem;
+    #postText, .postBody{
+        padding:0rem 1.4rem;
     }
 
    .authorCred{
@@ -136,7 +139,9 @@
   .blogsContainer{
     grid-template-columns: 1fr;
   }
-
+  .postBody img{
+        width: 95%;
+  }
 }
 @media (max-width: 400px) {
   .aboutAuthor p{
