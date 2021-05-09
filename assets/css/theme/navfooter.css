@@ -163,7 +163,7 @@ nav li.nav-item.show > a.nav-link {
   width: 140px;
   text-align: center;
 }
-#Newsletter{
+#Newsletter, #ContactUs{
   width: 160px;
 }
 .nav-item .nav-link:hover{
