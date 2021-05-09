@@ -149,3 +149,72 @@ nav{
   text-align: center;
   font-size: 1rem;
 }
+
+/* Media Queries */
+
+@media (max-width: 991.98px) {
+  #Blogs{
+    color: red;
+    border: 0;
+  }
+  .topSection{
+    background-position: right;
+  }
+}
+@media (max-width:767.98px){
+  .blogsContainer{
+    grid-template-columns: 1fr 1fr;
+  }
+  .blogDetail{
+    text-align: left;
+    grid-template-columns: 1fr 1fr;
+  }
+  .blogDetail a, .blogDetail p{
+    font-size:1.5rem;
+  }
+}
+@media (max-width: 575.98px){
+  .container{
+    padding: 0rem 1.5rem;
+  }
+  .LoadMore{
+    text-align: center;
+    font-size: 1rem;
+  }
+  .blogTitle{
+    background-image: url("../../../assets/images/bg/08.png");
+    background-position: center;
+  }
+  .Blogs{
+    font-size: .9rem;
+    box-shadow: none;
+    background-image: none;
+  }
+  .blogTitle, .bloglinks{
+    box-shadow: 0px 0px 1.3px .8px grey;
+    justify-content: center;
+  }
+
+  .bloglinks a{
+    font-size: .8rem;
+  }
+  .blogDetail a, .blogDetail p{
+    font-size: 1rem;
+  }
+
+}
+
+@media (max-width: 290px){
+  .blogDetail{
+  grid-template-columns: 1fr;
+  }
+  .Blogs{
+    font-size: .6rem;
+  }
+  .bloglinks a{
+    font-size: .5rem;
+  }
+  .blogsContainer{
+    grid-template-columns: 1fr;
+  }
+}
