@@ -73,7 +73,7 @@
   width:130px;
   height:130px;
 }
-.postBody{
+.postBody, .postText{
   font-size: 1.2rem;
   margin: auto;
   max-width: 1400px;
