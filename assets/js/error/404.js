@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function(){
   setTimeout(function(){
-     window.location = "https://www.dashingbog.com";
+     window.location = "https://www.shafiqhub.com";
   },10000)
 });
