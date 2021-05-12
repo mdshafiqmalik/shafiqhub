@@ -1,0 +1,10 @@
+<div id="loading" class="loading">
+     <div class="main">
+       <div class="lds-ring">
+         <div></div>
+         <div></div>
+         <div></div>
+       </div>
+     </div>
+     <pre id="l-m"></pre>
+   </div>
