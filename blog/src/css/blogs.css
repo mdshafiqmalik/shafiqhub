@@ -43,6 +43,7 @@ nav{
 }
 .featuredPost .blogTitle{
   color: black;
+  padding: 0rem 1rem .4rem 0rem;
   background-image: none;
   box-shadow: none;
   font-size: 30px;
@@ -50,7 +51,7 @@ nav{
   text-transform: capitalize;
 }
 .blogTitle{
-  padding: 0rem 1rem .4rem 0rem;
+  padding: .6rem .6rem .6rem 0rem;
   color: white;
 }
 .blogDetail{
