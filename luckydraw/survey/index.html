@@ -16,7 +16,7 @@
     }
       .container{
         width: 100vw;
-        height: 100%;
+        height: 100vh;
         margin: auto;
         background-image: url(../assets/images/desktop.png);
         background-position:center;
@@ -36,13 +36,13 @@
         color: white;
         margin: auto;
         width: 100vw;
-        height: 100%;
+        height: 100vh;
         background-color: #234;
         opacity: .9;
       }
       .mainbody{
         display: grid;
-        grid-template-rows: 1fr 3fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 3fr 1fr 1fr;
         max-width: 1400px;
       }
       .topic{
@@ -59,6 +59,7 @@
         font-family:verdana;
       }
       #takesurvey{
+        text-decoration: none;
         opacity: 1;
         margin: auto;
         padding: 10px 38px;
@@ -89,9 +90,7 @@
           The survey is hosted by <span style="color:lightblue;">earnmore.tech</span> ltd. for market research purpose.
           For a single participation in the survey you will be rewarded by<b style="color:lime;"> &#8377; 367.42 ($5) </b>into your paytm wallet. Estimated time required for this survey is <b style="color:lime;">2 minutes.</b>
         </p>
-          <input id="takesurvey" type="button" value="TAKE SURVEY" />
-        <div></div>
-        <div></div>
+          <a href="./questions.html" id="takesurvey" type="button"> TAKE SURVEY<a/>
         </div>
       </div>
     </div>

@@ -55,7 +55,7 @@
         font-family:verdana;
       }
       .options{
-        padding: 2rem 1rem;;
+        padding-left: 1rem;
       }
       input[type="radio"]{
         margin-left:1.7rem;
@@ -87,15 +87,15 @@
     <div class="container">
       <div class="outerbody">
         <div class="mainbody">
-        <center><span class="heading">Technology Survey Rewrds</span></center>
+        <center><span class="heading">Technology Survey Rewards</span></center>
         <span id="qustion" style="font-size:1.3rem; padding:1rem 1.4rem; font-family:verdana;">01: Which of the following you used frequently during this pandemic.</span>
-        <form class="option" method="post">
-          <input id="Facebook" type="radio" name="Facebook" value="interest" required> <label for="Facebook" class="options">Facebook</label> <br>
-          <input id="Whatsapp" type="radio" name="Whatsapp" value="interest" required><label for="Whatsapp" class="options">Whatsapp</label> <br>
-          <input id="Twitter" type="radio" name="Twitter" value="interest" required> <label for="Twitter" class="options">Twitter </label><br>
-          <input id="Google" type="radio" name="Google" value="interest" required><label for="Google" class="options"> Google Search </label><br>
-          <input id="Youtube" type="radio" name="Youtube" value="interest" required> <label for="Youtube" class="options">Youtube </label><br>
-          <center><input id="" type="submit" name="Next" value="Next"></center>
+        <form class="option">
+          <input id="fb" type="radio" name="interest" value="Facebook" required> <label for="fb" class="options">Facebook</label> <br>
+          <input id="te" type="radio" name="interest" value="Whatsapp" required><label for="te" class="options">Telegram</label> <br>
+          <input id="tw" type="radio" name="interest" value="Twitter" required> <label for="tw" class="options">Twitter </label><br>
+          <input id="gg" type="radio" name="interest" value="Google" required><label for="gg" class="options"> Google Search </label><br>
+          <input id="yt" type="radio" name="interest" value="Youtube" required> <label for="yt" class="options">Youtube </label><br>
+          <center><input onclick="submitAnswer()" type="submit" name="Next" value="NEXT &#10097;"></center>
         </form>
 
         </div>
