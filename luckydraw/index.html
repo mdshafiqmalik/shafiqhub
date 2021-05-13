@@ -15,7 +15,6 @@
       padding: 0;
     }
       .container{
-        /* max-width: 1400px; */
         width: 100vw;
         height: 100vh;
         margin: auto;
@@ -32,13 +31,19 @@
         transition: left 1s cubic-bezier(0.23, 1, 0.320, 1);
         scroll-behavior: smooth;
       }
-      .mainbody{
+      .outerbody{
         margin: auto;
-        max-width: 1400px;
+        /* max-width: 1400px; */
         width: 100vw;
         height: 100vh;
         background-color: #234;
         opacity: .85;
+      }
+      .mainbody{
+        max-width: 1400px;
+        height: 10rem;
+        width: 100vw;
+        border: 2px solid white;
       }
       @media (max-width: 767.98px) {
 
@@ -47,8 +52,10 @@
   </head>
   <body>
     <div class="container">
-      <div class="mainbody">
+      <div class="outerbody">
+        <div class="mainbody">
 
+        </div>
       </div>
     </div>
   </body>

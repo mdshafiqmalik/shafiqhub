@@ -15,9 +15,9 @@
       padding: 0;
     }
       .container{
-        max-width: 1400px;
+        /* max-width: 1400px; */
         width: 100vw;
-        height: 100vh;
+        height: 100%;
         margin: auto;
         background-image: url(../assets/images/desktop.png);
         background-position:center;
@@ -33,16 +33,19 @@
         transition: left 1s cubic-bezier(0.23, 1, 0.320, 1);
         scroll-behavior: smooth;
       }
-      .mainbody{
+      .outerbody{
         color: white;
-        display: grid;
-        grid-template-rows: 1fr 3fr 2fr 1fr;
         margin: auto;
-        max-width: 1400px;
+        /* max-width: 1400px; */
         width: 100vw;
-        height: 100vh;
+        height: 100%;
         background-color: #234;
         opacity: .85;
+      }
+      .mainbody{
+        display: grid;
+        grid-template-rows: 1fr 3fr 1fr 1fr 1fr 1fr;
+        max-width: 1400px;
       }
       .topic{
         /* margin: auto; */
@@ -72,7 +75,8 @@
   </head>
   <body>
     <div class="container">
-      <div class="mainbody">
+      <div class="outerbody">
+        <div class="mainbody">
         <center><h1 class="heading">Technology Survey Rewrds</h1></center>
         <p class="topic">
           This survey is taken in order to know what people think about various Technologies and their uses while pandamic.
@@ -80,8 +84,11 @@
           The survey is hosted by earnmore.tech ltd.
           For a single participation in the survey you will be rewarded by &#8377; 350 into your paytm wallet
         </p>
+        <div></div>
           <input id="takesurvey" type="button" value="TAKE SURVEY" />
         <div></div>
+        <div></div>
+        </div>
       </div>
     </div>
   </body>
