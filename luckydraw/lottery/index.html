@@ -2,11 +2,13 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Tech Big Giveaways, Surveys and Lucky Draw</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='../favicon.ico' rel='icon' type='image/x-icon'/>
     <link href='../favicon.ico' rel='icon' type='shortcut icon'/>
     <link href='../favicon.ico' rel='apple-touch-icon' type='apple-touch-icon image_src' />
-
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="theme-color" content="#222">
+    <title>Tech Big Lottery</title>
     <style media="screen">
     *{
       margin: auto;
@@ -14,11 +16,13 @@
     }
       .container{
         max-width: 1400px;
-        padding: 0rem 2rem;
-        width: 100rem;
-        height: 100rem;
-        background-color: indigo;
+        width: 100vw;
+        height: 100vh;
         margin: auto;
+        background-image: url(../assets/images/desktop.png);
+        background-position:center;
+        background-size: cover;
+        background-repeat: no-repeat;
       }
       body {
         position: relative;
@@ -29,10 +33,27 @@
         scroll-behavior: smooth;
         background-color: #fff;
       }
+      .mainbody{
+        margin: auto;
+        max-width: 1400px;
+        width: 100vw;
+        height: 100vh;
+        background-color: #222;
+        opacity: .8;
+      }
+      @media (max-width: 767.98px) {
+        .container{
+          background-image: url(../assets/images/mobile.png);
+          background-position:top;
+        }
+      }
     </style>
   </head>
   <body>
     <div class="container">
+      <div class="mainbody">
+
+      </div>
     </div>
   </body>
 </html>
