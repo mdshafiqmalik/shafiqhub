@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='../favicon.ico' rel='icon' type='image/x-icon'/>
+    <link href='../favicon.ico' rel='icon' type='shortcut icon'/>
+    <link href='../favicon.ico' rel='apple-touch-icon' type='apple-touch-icon image_src' />
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="theme-color" content="#222">
+    <title>Technology Survey Reward</title>
+    <style media="screen">
+    *{
+      padding: 0;
+      margin:0;
+    }
+      .container{
+        width: 100vw;
+        height: 100vh;
+        margin: auto;
+        background-image: url(../assets/images/desktop.png);
+        background-position:center;
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      body {
+        position: relative;
+        overflow-x: hidden;
+        left: 0;
+        -webkit-transition: left 1s cubic-bezier(0.23, 1, 0.320, 1);
+        transition: left 1s cubic-bezier(0.23, 1, 0.320, 1);
+        scroll-behavior: smooth;
+      }
+      .outerbody{
+        color: white;
+        margin: auto;
+        width: 100vw;
+        height: 100vh;
+        background-color: #234;
+        opacity: .9;
+      }
+      .mainbody{
+        padding-top: 1rem;
+        margin: auto;
+        display: grid;
+        grid-template-rows: 1fr 1fr 3fr;
+        max-width: 700px;
+      }
+      .heading{
+        font-weight:bold;
+        font-size:2rem;
+        padding: 2rem 1.5rem;
+        text-transform: uppercase;
+        font-family:verdana;
+      }
+      .options{
+        padding: 2rem 1rem;;
+      }
+      input[type="radio"]{
+        margin-left:1.7rem;
+        margin-top: 1rem;
+      }
+      input[type="submit"]{
+        font-size: 1.6rem;
+        padding: 4px 12px;
+        margin-top: 3rem;
+        font-width: bolder;
+        color: white;
+        background-color: green;
+        border-radius: 6px;
+        border: 0;
+      }
+      input[type="submit"]:hover{
+        cursor: pointer;
+      }
+      .option{
+        font-size: 1.4rem;
+        font-family: verdana;
+      }
+      @media (max-width: 767.98px) {
+
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="outerbody">
+        <div class="mainbody">
+        <center><span class="heading">Technology Survey Rewrds</span></center>
+        <span id="qustion" style="font-size:1.3rem; padding:1rem 1.4rem; font-family:verdana;">01: Which of the following you used frequently during this pandemic.</span>
+        <form class="option" method="post">
+          <input id="Facebook" type="radio" name="Facebook" value="interest" required> <label for="Facebook" class="options">Facebook</label> <br>
+          <input id="Whatsapp" type="radio" name="Whatsapp" value="interest" required><label for="Whatsapp" class="options">Whatsapp</label> <br>
+          <input id="Twitter" type="radio" name="Twitter" value="interest" required> <label for="Twitter" class="options">Twitter </label><br>
+          <input id="Google" type="radio" name="Google" value="interest" required><label for="Google" class="options"> Google Search </label><br>
+          <input id="Youtube" type="radio" name="Youtube" value="interest" required> <label for="Youtube" class="options">Youtube </label><br>
+          <center><input id="" type="submit" name="Next" value="Next"></center>
+        </form>
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
