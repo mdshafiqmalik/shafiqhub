@@ -15,7 +15,6 @@
       padding: 0;
     }
       .container{
-        /* max-width: 1400px; */
         width: 100vw;
         height: 100%;
         margin: auto;
@@ -43,27 +42,35 @@
       }
       .mainbody{
         display: grid;
-        grid-template-rows: 1fr 3fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 3fr 1fr 1fr 1fr;
         max-width: 1400px;
       }
       .topic{
+        font-family:verdana;
         max-width: 600px;
         padding: 1rem 1rem;
         font-size: 1.6rem;
       }
       .heading{
+        font-weight:bold;
+        font-size:2rem;
         padding-top: 1rem;
         text-transform: uppercase;
-        font-family: fantasy;
+        font-family:verdana;
       }
       #takesurvey{
         margin: auto;
-        padding: 5px 26px;
-        font-weight: bold;
+        padding: 10px 38px;
+        font-weight: bolder;
         color: white;
-        background-color: orange;
+        background-color: indigo;
         outline: none;
-        display: inline;
+        border: 0;
+        font-size:1.6rem;
+        border-radius:16px;
+      }
+      #takesurvey:hover{
+        background-color:purple;
       }
       @media (max-width: 767.98px) {
 
@@ -74,14 +81,13 @@
     <div class="container">
       <div class="outerbody">
         <div class="mainbody">
-        <center><h1 class="heading">Technology Survey Rewrds</h1></center>
+        <center><span class="heading">Technology Survey Rewrds</span></center>
         <p class="topic">
-          This survey is taken in order to know what people think about various Technologies and their uses while pandamic.
+          This survey is taken in order to get the opinions of people about various internet Technologies and they used while pandamic.
           <br>
-          The survey is hosted by earnmore.tech ltd.
-          For a single participation in the survey you will be rewarded by &#8377; 350 into your paytm wallet
+          The survey is hosted by <span style="color:lightblue;">earnmore.tech</span> ltd. for market research.
+          For a single participation in the survey you will be rewarded by<b style="color:lime;"> &#8377; 367.42 ($5) </b>into your paytm wallet. Estimated time required for this survey is <b style="color:lime;">2 minutes.</b>
         </p>
-        <div></div>
           <input id="takesurvey" type="button" value="TAKE SURVEY" />
         <div></div>
         <div></div>
