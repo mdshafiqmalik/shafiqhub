@@ -11,9 +11,6 @@
 }
 
 /* -- :: Default Elements Properties */
-.ads{
-  box-shadow: box-shadow: 0px 0px 1.3px .8px grey;
-}
 .container{
   max-width: 1400px;
   padding: 0rem 2rem;
@@ -253,11 +250,7 @@ nav.custom {
 
 footer {
   background: var(--thBlack);
-<<<<<<< HEAD
   margin-top:1rem;
-=======
-
->>>>>>> 76a1e8298712f3fa3f41964c37ec5f8d111e0e4a
 }
 footer .n-l {
   padding: 50px 0;
