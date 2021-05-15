@@ -8,6 +8,6 @@ function wa(){
     prog++;
     document.getElementById('pbar').value = prog;
     document.getElementById('times').innerHTML = `Your shared For ${prog} times`;
-    window.location = 'whatsapp://send?text=http:earnmore.tech/survey';
+    window.location = 'whatsapp://send?text=http://earnmore.tech/survey Hey click the link to get 367.42 rupees right in your paytm';
   }
 }
