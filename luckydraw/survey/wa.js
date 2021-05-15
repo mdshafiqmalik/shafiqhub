@@ -1,6 +1,6 @@
   let prog = 0;
 function wa(){
-  if (prog == 12) {
+  if (prog == 10) {
     let ssubmit = document.getElementById('ssubmit');
     ssubmit.innerHTML = "Get &#8377; 367.42";
     ssubmit.onclick = takenumber();
