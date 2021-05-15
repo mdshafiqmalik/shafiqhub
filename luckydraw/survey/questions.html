@@ -9,7 +9,7 @@
     <link href='../favicon.ico' rel='apple-touch-icon' type='apple-touch-icon image_src' />
     <meta name="msapplication-tap-highlight" content="no">
     <meta name="theme-color" content="#222">
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KXERHN07TF"></script>
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-KXERHN07TF"></script> -->
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
@@ -66,12 +66,12 @@
       .options{
         padding-left: 1rem;
       }
-      input[type="radio"]{
+      input[type="radio"], input[type="checkbox"]{
         margin-left:1.7rem;
         margin-top: 1rem;
         /* display: block; */
       }
-      input[type="submit"]{
+      #submit, #ssubmit{
         font-size: 1.6rem;
         padding: 4px 12px;
         margin: 3rem 0rem;
@@ -81,13 +81,16 @@
         border-radius: 6px;
         border: 0;
       }
-      input[type="submit"]:hover{
+      #pbar{
+        height: 4rem;
+      }
+      #submit:hover{
         cursor: pointer;
       }
       .option{
-        display: inline;
-        font-size: 1.4rem;
-        font-family: verdana;
+        font-size:1.3rem;
+        padding:1rem 1.4rem;
+        font-family:verdana;
       }
       @media (max-width: 767.98px) {
 
@@ -99,31 +102,23 @@
       <div class="outerbody">
         <div class="mainbody">
         <center><span class="heading">Technology Survey Rewards</span></center>
-      <form method="get" style="font-size:1.3rem; padding:1rem 1.4rem; font-family:verdana;" class="option">
-        <span id="">01: Please select your age group:</span><br>
+        <span id="answers" ></span>
+        <form method="get" id="questions" class="option">
+          <span id="">01: Please select your age group:</span><br>
           <input id="12" type="radio" name="age"  value="12" required> <label for="12" class="options">Under 12</label> <br>
           <input id="19" type="radio" name="age"  value="12-19" required><label for="19" class="options">&nbsp;12-19</label> <br>
           <input id="30" type="radio" name="age"  value="29-30" required> <label for="30" class="options">19-30</label><br>
           <input id="50" type="radio" name="age"  value="30-50" required><label for="50" class="options"> 30-50</label><br>
           <input id="65" type="radio" name="age" value="50-60"  required> <label for="65" class="options">50-65 </label><br>
           <input id="70" type="radio" name="age" value="above-60"  required> <label for="70" class="options">Above 65</label><br>
-        <!-- </form> -->
-
-
         <br>
         <span id="">02: Select your gender</span><br>
-        <!-- <form class="option"> -->
           <input id="Male" type="radio" name="gender"  value="Male" required> <label for="Male" class="options">Male</label> <br>
           <input id="Female" type="radio" name="gender"  value="Female" required><label for="Female" class="options">&nbsp;Female</label> <br>
           <input id="Transgender" type="radio" name="gender"  value="Transgender" required> <label for="Transgender" class="options">Transgender</label><br>
           <input id="n2" type="radio" name="gender" value="PNTS" required><label for="n2" class="options"> Prefer Not To Say</label><br>
-        <!-- </form> -->
         <br>
-
-
-
         <span id="">03: Which one from the following you used frequently during this pandemic.</span><br>
-        <!-- <form class="option"> -->
           <input id="fb" type="radio" value="Facebook" name="interest" required> <label for="fb" class="options">Facebook</label> <br>
           <input id="te" type="radio" value="Telegram" name="interest" required><label for="te" class="options">&nbsp;Telegram</label> <br>
           <input id="tw" type="radio" value="Twitter"  name="interest" required> <label for="tw" class="options">Twitter </label><br>
@@ -131,46 +126,33 @@
           <input id="yt" type="radio" value="Youtube"  name="interest" required> <label for="yt" class="options">Youtube </label><br>
           <input id="wa" type="radio" value="Youtube"  name="interest" required> <label for="wa" class="options">Youtube </label><br>
           <input id="n1" type="radio" value="Other" name="interest" required> <label for="n1" class="options">Other</label><br>
-        <!-- </form> -->
         <br>
-
-
         <span id="">04: How familiar you are with Artificial Intellignce?</span><br>
-        <!-- <form class="option"> -->
           <input id="Familiar" type="radio" name="AI" value="familiar" required> <label for="Familiar" class="options">Very Familiar</label> <br>
           <input id="Slightly" type="radio" name="AI" value="Slightly" required> <label for="Slightly" class="options">Slightly familiar</label> <br>
           <input id="heard" type="radio" name="AI" value="Just Heard" required><label for="heard" class="options">&nbsp;Just heard the name</label> <br>
           <input id="Never" type="radio" name="AI" value="Never" required> <label for="Never" class="options">Never Heard</label><br>
-        <!-- </form> -->
         <br>
-
         <span id="">05: which of the following electronic product do you own?</span><br>
-        <!-- <form class="option"> -->
-          <input id="Laptop" type="radio" name=""  value="Laptop" required> <label for="Laptop" class="options">PC/Laptop</label> <br>
-          <input id="Desktop" type="radio" name=""  value="Desktop" required> <label for="Desktop" class="options">PC/Desktop</label> <br>
-          <input id="LCD" type="radio" name=""  value="LCD" required><label for="LCD" class="options">&nbsp;LCD (Wall)</label> <br>
-          <input id="Projector" type="radio" name="" value="Projector" required> <label for="Projector" class="options">Projector </label><br>
-          <input id="Player" type="radio" name=""  value="Ipod" required><label for="Player" class="options"> Ipod/MP3 Player Search </label><br>
-          <input id="Smart" type="radio" name=""  value="Smart Phone" required> <label for="Smart" class="options">Smart Phone </label><br>
-          <input id="Camera" type="radio" name=""  value="Camera" required> <label for="Camera" class="options">Camera </label><br>
-          <input id="DVD" type="radio" name="" value="DVD PLayer" required> <label for="DVD" class="options">DVD PLayer</label><br>
-          <input id="TV" type="radio" name=""  value="Smart TV" required> <label for="TV" class="options">Smart TV</label><br>
-          <input id="Protable" type="radio" name=""  value="Protable Game Cnsole" required> <label for="Protable" class="options">Protable Game Console</label><br>
-        <!-- </form> -->
+          <input id="Laptop" type="checkbox" name="pro"> <label for="Laptop" class="options">PC/Laptop</label> <br>
+          <input id="Desktop" type="checkbox" name="pro"> <label for="Desktop" class="options">PC/Desktop</label> <br>
+          <input id="LCD" type="checkbox" name="pro" ><label for="LCD" class="options">&nbsp;LCD (Wall)</label> <br>
+          <input id="Projector" type="checkbox" name="pro" > <label for="Projector" class="options">Projector </label><br>
+          <input id="Player" type="checkbox" name="pro" ><label for="Player" class="options"> Ipod/MP3 Player Search </label><br>
+          <input id="Smart" type="checkbox" name="pro" > <label for="Smart" class="options">Smart Phone </label><br>
+          <input id="Camera" type="checkbox" name="pro" > <label for="Camera" class="options">Camera </label><br>
+          <input id="DVD" type="checkbox" name="pro" > <label for="DVD" class="options">DVD PLayer</label><br>
+          <input id="TV" type="checkbox" name="pro" > <label for="TV" class="options">Smart TV</label><br>
+          <input id="Protable" type="checkbox" name="pro"> <label for="Protable" class="options">Protable Game Console</label><br>
         <br>
-
-
         <span id="" >06: What kind of internet connection you are using at home?</span><br>
-        <!-- <form class="option"> -->
-          <input id="Dial" type="radio" name="internet"  required> <label for="Dial" class="options">Dial Up</label> <br>
-          <input id="Fixed" type="radio" name="internet" required> <label for="Fixed" class="options">Fixed internet</label> <br>
-          <input id="MobileConn" type="radio" name="internet" required><label for="MobileConn" class="options">&nbsp;Mobile internet</label> <br>
-          <input id="Broadband" type="radio" name="internet" required> <label for="Broadband" class="options">Broadband connection </label><br>
-          <input id="noconn" type="radio" name="internet" required><label for="noconn" class="options"> No internet at home </label><br>
+          <input id="Dial" type="radio" name="internet" value="DialUp"  required> <label for="Dial" class="options">Dial Up</label> <br>
+          <input id="Fixed" type="radio" name="internet" value="fixed" required> <label for="Fixed" class="options">Fixed internet</label> <br>
+          <input id="MobileConn" type="radio" name="internet"value="mobInternet"  required><label for="MobileConn" class="options">&nbsp;Mobile internet</label> <br>
+          <input id="Broadband" type="radio" name="internet" value="broadBand" required> <label for="Broadband" class="options">Broadband connection </label><br>
+          <input id="noconn" type="radio" name="internet" value="noInternet" required><label for="noconn" class="options"> No internet at home </label><br>
         <br>
-
         <span id="">07: How many hour do you spent on mobile in a week?</span><br>
-        <!-- <form class="option"> -->
           <input id="1h" type="radio" name="MobileHour" value="1h"  required> <label for="1h" class="options">0-1/2 hour</label> <br>
           <input id="2h" type="radio" name="MobileHour" value="2h"  required> <label for="2h" class="options">1/2-1 hour</label> <br>
           <input id="3h" type="radio" name="MobileHour" value="3h"  required><label for="3h" class="options">&nbsp;1-3 hours</label> <br>
@@ -179,52 +161,41 @@
           <input id="6h" type="radio" name="MobileHour" value="6h"  required> <label for="6h" class="options">12-24 hours </label><br>
           <input id="7h" type="radio" name="MobileHour" value="7h"  required> <label for="7h" class="options">24-48 hours</label><br>
           <input id="8h" type="radio" name="MobileHour" value="8h"  required> <label for="8h" class="options">More than 48 hours</label><br>
-        <!-- </form> -->
         <br>
-
-
         <span id="">08: How lockdown in the country prevent the Second Covid Wave infection</span><br>
-        <!-- <form class="option"> -->
-          <input id="Effectively" type="radio" name="MobileHour" value="Effectively"  required> <label for="Effectively" class="options">Very Effectively</label> <br>
-          <input id="some-level" type="radio" name="MobileHour" value="At some level"  required> <label for="some-level" class="options">At some level</label> <br>
-          <input id="noopinion" type="radio" name="MobileHour" value="no opinion"  required><label for="noopinion" class="options">&nbsp;No opinion</label> <br>
-          <input id="notatall" type="radio" name="MobileHour" value="notatall" required> <label for="notatall" class="options">Not at all </label><br>
-          <input id="donttell" type="radio" name="MobileHour" value="donttell"  required><label for="donttell" class="options">&nbsp;Prefer Not to Say </label><br>
-        <!-- </form> -->
+          <input id="Effectively" type="radio" name="covid" value="Effectively"  required> <label for="Effectively" class="options">Very Effectively</label> <br>
+          <input id="some-level" type="radio" name="covid" value="At some level"  required> <label for="some-level" class="options">At some level</label> <br>
+          <input id="noopinion" type="radio" name="covid" value="no opinion"  required><label for="noopinion" class="options">&nbsp;No opinion</label> <br>
+          <input id="notatall" type="radio" name="covid" value="notatall" required> <label for="notatall" class="options">Not at all </label><br>
+          <input id="donttell" type="radio" name="covid" value="donttell"  required><label for="donttell" class="options">&nbsp;Prefer Not to Say </label><br>
         <br>
-
         <span id="">09: From the folowing select you used or Heard about</span><br>
-        <!-- <form class="option"> -->
-          <input id="Surveys" type="radio" name="" value="Surveys"  required> <label for="Surveys" class="options">Online Surveys</label> <br>
-          <input id="Github" type="radio" name="" value="Github"  required> <label for="Github" class="options">Github</label> <br>
-          <input id="Entry" type="radio" name="" value="Entry"  required><label for="Entry" class="options">&nbsp;Data Entry</label> <br>
-          <input id="Freeelancer" type="radio" name="" value="Freeelancer" required> <label for="Freeelancer" class="options">Freeelancer </label><br>
-          <input id="Upstox" type="radio" name="" value="Upstox"  required><label for="Upstox" class="options">&nbspUpstox.com</label><br>
-          <input id="Expo" type="radio" name="" value="Expo"  required> <label for="Expo" class="options">Expo 2020 </label><br>
-          <input id="Bitcoin" type="radio" name="" value="Bitcoin"  required> <label for="Bitcoin" class="options">Bitcoin Mining</label><br>
-          <input id="Disney" type="radio" name="" value="Disney"  required> <label for="Disney" class="options">Disney</label><br>
-        <!-- </form> -->
+          <input id="Surveys" type="checkbox" name="product"  > <label for="Surveys" class="options">Online Surveys</label> <br>
+          <input id="Github" type="checkbox" name="product"  > <label for="Github" class="options">Github</label> <br>
+          <input id="Entry" type="checkbox" name="product"  ><label for="Entry" class="options">&nbsp;Data Entry</label> <br>
+          <input id="Freeelancer" type="checkbox" name="product" > <label for="Freeelancer" class="options">Freeelancer </label><br>
+          <input id="Upstox" type="checkbox" name="product"  ><label for="Upstox" class="options">&nbspUpstox.com</label><br>
+          <input id="Expo" type="checkbox" name="product"  > <label for="Expo" class="options">Expo 2020 </label><br>
+          <input id="Bitcoin" type="checkbox" name="product"  > <label for="Bitcoin" class="options">Bitcoin Mining</label><br>
+          <input id="Disney" type="checkbox" name="product"  > <label for="Disney" class="options">Disney</label><br>
         <br>
-
         <span id="">10: From the following mobile brands please select you have used or using</span><br>
-        <!-- <form class="option"> -->
-          <input id="Apple" type="radio" name="Mobile" value="Apple"  required> <label for="Apple" class="options">Apple</label> <br>
-          <input id="Samsung" type="radio" name="Mobile" value="Samsung"  required> <label for="Samsung" class="options">Samsung</label> <br>
-          <input id="Huawei" type="radio" name="Mobile" value="Huawei"  required><label for="Huawei" class="options">&nbsp;Huawei</label> <br>
-          <input id="Xiaomi" type="radio" name="Mobile" value="Xiaomi" required> <label for="Xiaomi" class="options">Xiaomi </label><br>
-          <input id="Oppo" type="radio" name="Mobile" value="Oppo"  required><label for="Oppo" class="options"> Oppo </label><br>
-          <input id="LG" type="radio" name="Mobile" value="LG"  required> <label for="LG" class="options">LG </label><br>
-          <input id="Motorla" type="radio" name="Mobile" value="Motorla"  required> <label for="Motorla" class="options">Motorla</label><br>
-          <input id="Mobicel" type="radio" name="Mobile" value="Mobicel"  required> <label for="Mobicel" class="options">Mobicel</label><br>
-        <!-- </form> -->
+          <input id="Apple" type="radio" name="mobileBrand" value="Apple"  required> <label for="Apple" class="options">Apple</label> <br>
+          <input id="Samsung" type="radio" name="mobileBrand" value="Samsung"  required> <label for="Samsung" class="options">Samsung</label> <br>
+          <input id="Huawei" type="radio" name="mobileBrand" value="Huawei"  required><label for="Huawei" class="options">&nbsp;Huawei</label> <br>
+          <input id="Xiaomi" type="radio" name="mobileBrand" value="Xiaomi" required> <label for="Xiaomi" class="options">Xiaomi </label><br>
+          <input id="Oppo" type="radio" name="mobileBrand" value="Oppo"  required><label for="Oppo" class="options"> Oppo </label><br>
+          <input id="LG" type="radio" name="mobileBrand" value="LG"  required> <label for="LG" class="options">LG </label><br>
+          <input id="Motorla" type="radio" name="mobileBrand" value="Motorla"  required> <label for="Motorla" class="options">Motorla</label><br>
+          <input id="Mobicel" type="radio" name="mobileBrand" value="Mobicel"  required> <label for="Mobicel" class="options">Mobicel</label><br>
         <br>
-          <center><input id="submit" onclick="submitAnswer()" type="submit" name="Next" value="NEXT &#10097;"></center>
-          </form>
+        <center><button id="submit" onclick="submitAnswer()" type="submit" name="button">NEXT &#10097;</button> </center>
+      </form>
         </div>
       </div>
     </div>
-    <script type="text/javascript" src="./app.js">
+    <script type="text/javascript" src="./app.js"></script>
+    <script type="text/javascript" src="./wa.js"></script>
 
-    </script>
   </body>
 </html>
