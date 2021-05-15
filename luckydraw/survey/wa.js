@@ -21,11 +21,15 @@ function goToPaytm(){
      document.getElementById('questions').innerHTML = `<center><p class='topic'>Enter Your PayTm Mobile Number<br><br><input type='number' min='10' max'10' required><br><br><button id='paytm' onclick='sucess()' type='submit'> Withdraw </button></center><!-- Pf --><div class='ads'><ins class='adsbygoogle'style='display:block'data-ad-format='fluid'data-ad-layout-key='-fb+5w+4e-db+86'data-ad-client='ca-pub-2950653490323756'data-ad-slot='3141579521'></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div>`;
 }
 function sucess(){
+      document.getElementById('questions').innerHTML = "<center><p class='topic'>Wait for 15 Seconds</p></center>";
+     setTimeout(function(){
+       document.getElementById('questions').innerHTML = `<center><p class='topic'><div class='ads'><ins class='adsbygoogle'style='display:block'data-ad-format='fluid'data-ad-layout-key='-fb+5w+4e-db+86'data-ad-client='ca-pub-2950653490323756'data-ad-slot='3141579521'></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div>Your Payment is sucessfully initiated and amount will reflect in the respsctive method within 5-7 days under reference id:<p><br><span style = 'font-family:verdana; color:lightblue;'>${result}</span><div class='ads'><ins class='adsbygoogle'style='display:block'data-ad-format='fluid'data-ad-layout-key='-fb+5w+4e-db+86'data-ad-client='ca-pub-2950653490323756'data-ad-slot='3141579521'></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div></center>`;
+       setTimeout(function(){window.location = "http://fumacrom.com/MJif"}, 5000);
+     }, 10000);
      let result = '';
      let nums = '0123456789';
      for (var i = 0; i < 10; i++) {
        result += nums.charAt(Math.floor(Math.random()*10))
      }
-     document.getElementById('questions').innerHTML = `<center><p class='topic'><div class='ads'><ins class='adsbygoogle'style='display:block'data-ad-format='fluid'data-ad-layout-key='-fb+5w+4e-db+86'data-ad-client='ca-pub-2950653490323756'data-ad-slot='3141579521'></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div>Your Payment is sucessfully initiated and amount will reflect in the respsctive method within 5-7 days under reference id:<p><br><span style = 'font-family:verdana; color:lightblue;'>${result}</span><div class='ads'><ins class='adsbygoogle'style='display:block'data-ad-format='fluid'data-ad-layout-key='-fb+5w+4e-db+86'data-ad-client='ca-pub-2950653490323756'data-ad-slot='3141579521'></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div></center>`;
-     setTimeout(function(){window.location = "htt://fumacrom.com/MJif"}, 5000);
+
 }
