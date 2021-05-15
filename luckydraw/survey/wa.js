@@ -12,10 +12,10 @@ function wa(){
   }
 }
 function takenumber(){
-  document.getElementById('questions').innerHTML = "<center><p class='topic'>Please Select a Payment Method<br></p><br><button id='paypal' onclick='goToPaypal()' type='button'> Paypal ($5) </button><br><button id='paytm' onclick='goToPaytm()' type='button'> PayTm (&#8377; 367) </button></center>";
+  document.getElementById('questions').innerHTML = "<center><p class='topic'><!-- pf 02 --><div class='ads'><ins class='adsbygoogle'style='display:block'data-ad-format='fluid'data-ad-layout-key='-fb+5w+4e-db+86'data-ad-client='ca-pub-2950653490323756'data-ad-slot='1422493112'></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div>Please Select a Payment Method<br></p><br><button id='paypal' onclick='goToPaypal()' type='button'> Paypal ($5) </button><br><button id='paytm' onclick='goToPaytm()' type='button'> PayTm (&#8377; 367) </button></center>";
 }
 function goToPaypal(){
-      document.getElementById('questions').innerHTML = "<center><p class='topic'>Enter Your Paypal Connected email<br><br><input type='mail' placeholder='jhon@company.com' required><br><br><button id='paytm' onclick='sucess()' type='submit'> Withdraw </button></center>";
+      document.getElementById('questions').innerHTML = "<center><p class='topic'> <!-- Pf --><div class='ads'><ins class='adsbygoogle'style='display:block'data-ad-format='fluid'data-ad-layout-key='-fb+5w+4e-db+86'data-ad-client='ca-pub-2950653490323756'data-ad-slot='3141579521'></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div>Enter Your Paypal Connected email<br><br><input type='mail' placeholder='jhon@company.com' required><br><br><button id='paytm' onclick='sucess()' type='submit'> Withdraw </button></center>";
 }
 function goToPaytm(){
      document.getElementById('questions').innerHTML = "<center><p class='topic'>Enter Your PayTm Mobile Number<br><br><input type='number' min='10' max'10' required><br><br><button id='paytm' onclick='sucess()' type='submit'> Withdraw </button></center>";
