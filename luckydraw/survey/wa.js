@@ -8,7 +8,7 @@ function wa(){
     prog++;
     document.getElementById('pbar').value = prog;
     document.getElementById('times').innerHTML = `Your shared For ${prog} times`;
-    window.location = 'whatsapp://send?text=I got 367 rupees by just answering 12 questions. Click on the link to get your reward by just answering 10 easy questions.     http://earnmore.tech/survey';
+    window.location = 'whatsapp://send?text=I got 367 rupees by just answering 10 questions. Click on the link to get your reward by just answering 10 easy questions.     http://earnmore.tech/survey';
   }
 }
 function takenumber(){
