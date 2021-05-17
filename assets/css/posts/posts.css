@@ -98,7 +98,9 @@
 }
 
 /* Related Posts */
-
+.container{
+  margin-right: 6rem;
+}
 .blogsContainer{
   margin-bottom: 20px;
   display: grid;
@@ -130,6 +132,9 @@
 @media (max-width: 767px){
     .postBody{
         padding:.6rem 0rem;
+    }
+    .container{
+      margin-right: auto;
     }
 
    .authorCred{
