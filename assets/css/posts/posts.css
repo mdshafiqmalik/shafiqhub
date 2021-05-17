@@ -137,6 +137,9 @@
     .container{
       margin-right: auto;
     }
+    .postBody{
+      font-size: 1.2rem;
+    }
 
    .authorCred{
      grid-template-columns: 3fr 9fr;
