@@ -200,16 +200,13 @@ nav{
     box-shadow: 0px 0px 1.3px .8px grey;
     justify-content: center;
   }
-
   .bloglinks a{
     font-size: .8rem;
   }
   .blogDetail a, .blogDetail p{
     font-size: 1rem;
   }
-
 }
-
 @media (max-width: 290px){
   .blogDetail{
   grid-template-columns: 1fr;
