@@ -139,6 +139,7 @@
 @media (max-width: 767px){
     .postBody{
         padding:.6rem 0rem;
+        font-size: 1.4rem;
     }
     .container{
       margin-right: auto;
