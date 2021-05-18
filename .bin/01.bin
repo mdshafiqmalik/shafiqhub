@@ -1,0 +1,56 @@
+<div id="loading" class="loading">
+     <div class="main">
+       <div class="lds-ring">
+         <div></div>
+         <div></div>
+         <div></div>
+       </div>
+     </div>
+     <pre id="l-m"></pre>
+   </div>
+
+   <!-- Pf -->
+   <div class="ads">
+     <ins class="adsbygoogle"
+          style="display:block"
+          data-ad-format="fluid"
+          data-ad-layout-key="-fb+5w+4e-db+86"
+          data-ad-client="ca-pub-2950653490323756"
+          data-ad-slot="3141579521">
+     </ins>
+     <script>
+          (adsbygoogle = window.adsbygoogle || []).push({});
+     </script>
+   </div>
+   <!-------------------->
+   <hr>
+   <br>
+   <!-- pf 01 -->
+   <div class="ads">
+     <ins class="adsbygoogle"
+          style="display:block"
+          data-ad-format="fluid"
+          data-ad-layout-key="-fb+5w+4e-db+86"
+          data-ad-client="ca-pub-2950653490323756"
+          data-ad-slot="1087736606">
+     </ins>
+     <script>
+          (adsbygoogle = window.adsbygoogle || []).push({});
+     </script>
+   </div>
+   <!---------------------------->
+   <br>
+   <!-- pf 02 -->
+   <div class="ads">
+     <ins class="adsbygoogle"
+          style="display:block"
+          data-ad-format="fluid"
+          data-ad-layout-key="-fb+5w+4e-db+86"
+          data-ad-client="ca-pub-2950653490323756"
+          data-ad-slot="1422493112">
+     </ins>
+     <script>
+          (adsbygoogle = window.adsbygoogle || []).push({});
+     </script>
+   </div>
+   <!-------------------------------------->
