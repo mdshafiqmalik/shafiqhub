@@ -138,10 +138,11 @@
   font-weight: bolder;
   text-transform: capitalize;
   color: white;
-  padding: 2px 20px;
+  padding: 5px 20px;
   border-radius: 20px;
   margin-left: 20px;
 }
+
 .visitBlogs a::after{
   position: relative;
   content: '\f138';
@@ -338,6 +339,7 @@ color: rgb(42, 163, 38);
     color:#FF0000;
 }
 #authorName{
+  text-align: center;
   font-size: 1.5rem;
   text-transform: uppercase;
   font-weight: bolder;
@@ -492,6 +494,9 @@ color: rgb(42, 163, 38);
     }
 }
 @media (max-width: 991.98px) {
+  #contactMe{
+    display: none;
+  }
   #HeroSectionRow .dailyQoutes{
     height: auto;
     margin-top: 1rem;
@@ -671,6 +676,7 @@ color: rgb(42, 163, 38);
     font-size: 20px;
   }
   #qouteHeading{
+    text-align: center;
     font-size: 22px;
     font-family: serif;
   }

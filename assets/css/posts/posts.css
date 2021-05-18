@@ -99,7 +99,7 @@
 
 /* Related Posts */
 .container{
-  margin-right: 6rem;
+  /* margin-right: 6rem; */
   padding: 0rem 1.3rem;
 }
 .blogsContainer{
@@ -123,10 +123,16 @@
   background-color: #eee;
   padding: 1rem;
 }
+.postBody img{
+      max-width: 95%;
+}
 
 @media (max-width: 991.98px) {
   .blogsContainer{
     grid-column-gap: 80px;
+  }
+  .postBody img{
+        width: 95%;
   }
 }
 
@@ -136,9 +142,6 @@
     }
     .container{
       margin-right: auto;
-    }
-    .postBody{
-      font-size: 1.2rem;
     }
 
    .authorCred{
@@ -151,9 +154,6 @@
     }
   .blogsContainer{
     grid-template-columns: 1fr;
-  }
-  .postBody img{
-        width: 95%;
   }
 }
 @media (max-width: 400px) {
