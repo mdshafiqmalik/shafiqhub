@@ -1,7 +1,7 @@
 (function ($) {
 'use strict';
 // -- :: Loading Page
-$('#l-m').html("loading...");
+$('html').css('overflow-y', 'visible');
 $(window).on('load', function () {
   $('#loading').fadeOut(1000);
   $('html').css('overflow-y', 'visible');
