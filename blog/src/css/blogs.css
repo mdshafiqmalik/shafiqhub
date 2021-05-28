@@ -52,7 +52,6 @@ nav{
 }
 .blogTitle{
   padding: .9rem .9rem 0rem .9rem;
-  text-align: center;
   color: white;
 }
 .blogDetail{
@@ -187,6 +186,7 @@ nav{
   .blogTitle{
     background-image: url("../../../assets/images/bg/08.png");
     background-position: center;
+    text-align: center;
   }
   .Blogs{
     font-size: .9rem;

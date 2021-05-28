@@ -110,14 +110,14 @@ nav {
   position: fixed !important;
   z-index: 999;
   width: 100%;
-  padding: 70px 0 15px 0 !important;
+  padding: 67px 0 13px 0 !important;
   -webkit-transition: all .25s linear;
   transition: all .25s linear;
 }
 
 nav .navbar-brand img {
   height: 30px;
-  width: 170px;
+  /* width: 170px; */
 }
 
 /* nav item */
@@ -175,7 +175,7 @@ nav li.nav-item.show > a.nav-link {
 nav.scrolled,
 nav.custom {
   background:indigo;
-  padding: 13px 0 15px 0 !important;
+  padding: 12px 0 10px 0 !important;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
 }
 /* -- :: loading Spinner */
