@@ -3,9 +3,6 @@
     margin-top: 170px;
     height: auto;
 }
-.HeroSection {
-    height: 100%;
-}
 nav {
     background-color: indigo;
 }
@@ -165,7 +162,7 @@ nav {
     font-weight: bolder;
     font-size: 0.4rem;
     text-align: center;
-    padding: 2.5rem 1rem 3rem 1rem;
+    padding: 1.5rem;
     margin: 30px 0;
 }
 .tabs h2 {
@@ -286,7 +283,7 @@ nav {
 }
 .describe {
     font-weight: 400;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     margin-top: 6px;
     padding-top: 5px;
 }
@@ -311,33 +308,10 @@ nav {
     display: grid;
     grid-template-rows: 1.5fr 0.25fr;
     font-weight: 600;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
 }
 .blogTitle {
     padding: 0.9rem 0.9rem 0 0.9rem;
-}
-.bloglinks {
-    display: none;
-    padding: 0.3rem 1.2rem;
-    font-size: 1rem;
-}
-.bloglinks a::after {
-    margin-left: 0.5rem;
-    content: "\f138";
-    font-weight: bolder;
-    color: #007bff;
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
-    font: normal normal normal 14px/1 FontAwesome;
-    font-size: 1.1rem;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-}
-.bloglinks a:hover {
-    text-decoration: none;
-}
-.bloglinks a:hover::after {
-    color: #44f;
 }
 .FAQsection h2 {
     color: #000;
@@ -468,9 +442,6 @@ nav {
     .FAQ {
         grid-template-columns: 1fr;
     }
-    .blogsContainer {
-        grid-template-columns: 1fr 1fr;
-    }
     .whatHelp {
         padding: 0 0.6rem;
     }
@@ -522,25 +493,26 @@ nav {
         color: #00008b;
     }
 }
+@media (max-width: 680.98px){
+  .blogsContainer {
+      grid-template-columns: 1fr;
+      max-width: 500px;
+  }
+  .blogTitle {
+      padding: 0.1rem 0.6rem 0 0.6rem;
+  }
+  .Blogs {
+      font-size: 1.1rem;
+  }
+  .describe {
+      font-size: .9rem;
+  }
+}
 @media (max-width: 575.98px) {
-    .blogsContainer {
-        grid-template-columns: 1fr;
-        max-width: 350px;
-    }
-    .blogTitle {
-        padding: 0.1rem 0.6rem 0 0.6rem;
-    }
-    .Blogs {
-        background-image: none;
-        box-shadow: none;
-        font-size: 1.1rem;
-    }
-    .describe {
-        font-size: 1rem;
-    }
-    .bloglinks {
-        display: none;
-    }
+  .blogsContainer {
+      grid-template-columns: 1fr;
+      max-width: 400px;
+  }
     #authorDetail,
     p {
         font-size: 1.1rem;
@@ -610,11 +582,11 @@ nav {
     }
 }
 @media (max-width: 290px) {
+  .describe{
+    font-size: .8rem;
+  }
     .Blogs {
-        font-size: 0.6rem;
-    }
-    .bloglinks a {
-        font-size: 0.5rem;
+        font-size: 1rem;
     }
     .blogsContainer {
         grid-template-columns: 1fr;

@@ -24,13 +24,7 @@ function goTo(link){
 let Qplace = document.getElementById('qoute');
 let Qauthor = document.getElementById('qouteWriter');
 const date = new Date().getDay();
-Qplace.innerHTML = Qoutes[date-1].qoute;
-Qauthor.innerHTML = Qoutes[date-1].author;
 let Qoutes = [
-  {
-    qoute:"  It’s not that I’m so smart, it’s just that I stay with problems longer",
-    authour:"Albert Einstein"
-  },
   {
     qoute:"Eighty percent of success is showing up",
     authour:"Woody Allen"
@@ -38,6 +32,10 @@ let Qoutes = [
   {
     qoute:"I respect faith, but doubt is what gets you an education",
     authour:"Wilson Mizner"
+  },
+  {
+    qoute:"  It’s not that I’m so smart, it’s just that I stay with problems longer",
+    authour:"Albert Einstein"
   },
   {
     qoute:"The greatest obstacle to discovery is not ignorance; it is the illusion of knowledge",
@@ -152,56 +150,5 @@ let Qoutes = [
     authour:"David Richerby"
   }
 ];
-
-
-// let message = document.getElementById('statusMessage');
-// $("#subsSubmit").click(function(){
-//    $(".subscribeForm").submit(function(e) {
-//     e.preventDefault();
-//     });
-//     let subsName = $("#subsName").val();
-//     let subsEmail = $("#subsEmail").val();
-//       let isValid = validateData(subsName, subsEmail);
-//       if (!isValid) {
-//
-//       }else {
-//         message.innerHTML = "We are working";
-//         message.classList.add("statusSucess");
-//         message.classList.remove("statusWarning");
-//       }
-//   });
-// function validateData(name, email){
-//   if (name.length == 0 || email.length == 0) {
-//     message.innerHTML = "All fields required";
-//     message.classList.add("statusWarning");
-//     message.classList.remove("statusSucess");
-//     return false;
-//   }else if (validateName(name) && validateEmail(email)) {
-//     return true;
-//   }else {
-//     return false;
-//   }
-// }
-// function validateName(name){
-//   let isNum = parseInt(name);
-//   if (name.length < 4 || Number.isInteger(isNum)) {
-//     message.innerHTML = `Name is too short or a number`;
-//     message.classList.add("statusWarning");
-//     message.classList.remove("statusSucess");
-//     return false;
-//   }else {
-//     return true;
-//   }
-// }
-//   function validateEmail(email){
-//       let atpos = email.indexOf("@");
-//       let dotpos = email.lastIndexOf(".");
-//       if (atpos < 1 || (dotpos-atpos < 2) || email.length < 10) {
-//         message.innerHTML = "Incorrect Email";
-//         message.classList.add("statusWarning");
-//         message.classList.remove("statusSucess");
-//         return false;
-//       }else {
-//         return true;
-//       }
-//   }
+Qplace.innerHTML = Qoutes[date-1].qoute;
+Qauthor.innerHTML = Qoutes[date-1].author;
