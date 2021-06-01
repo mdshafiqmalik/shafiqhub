@@ -395,7 +395,7 @@ color: rgb(42, 163, 38);
 .blogsContainer{
   margin: 10px auto;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-gap: 1rem;
 }
 .Blogs{
