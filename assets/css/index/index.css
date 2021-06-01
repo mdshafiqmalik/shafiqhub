@@ -647,10 +647,10 @@ color: rgb(42, 163, 38);
     margin-top: 1rem;
     background-image: none;
     box-shadow: none;
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
   .describe{
-    font-size: .9rem;
+    font-size: 1rem;
   }
   .bloglinks a{
     font-size: .8rem;
