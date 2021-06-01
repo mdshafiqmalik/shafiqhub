@@ -652,8 +652,8 @@ color: rgb(42, 163, 38);
   .describe{
     font-size: 1rem;
   }
-  .bloglinks a{
-    font-size: .8rem;
+  .bloglinks{
+    display: none;
   }
   /* Author Detail */
   #authorDetail, p{
