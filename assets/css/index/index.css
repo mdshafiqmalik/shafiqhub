@@ -375,7 +375,6 @@ color: rgb(42, 163, 38);
 }
 
 .describe{
-  border-top: 1px solid;
   font-weight: normal;
   font-size: 1.2rem;
   margin-top: 6px;
@@ -581,7 +580,7 @@ color: rgb(42, 163, 38);
   }
 
   .whatHelp{
-        padding: 0rem .6rem;
+    padding: 0rem .6rem;
   }
   .tabs::before{
     font-size: 60px;
@@ -635,16 +634,12 @@ color: rgb(42, 163, 38);
     grid-template-columns: 1fr;
     max-width: 350px;
   }
-  .blogTitle, .bloglinks{
-    /* box-shadow: 0px 0px 1.3px .8px grey; */
-  }
+ 
   .blogTitle{
-    padding: .6rem .6rem .2rem .6rem;
-    /* background-image: url("../../images/bg/08.png"); */
-    background-position: center;
+    padding: .1rem .6rem 0rem .6rem;
+
   }
   .Blogs{
-    margin-top: 1rem;
     background-image: none;
     box-shadow: none;
     font-size: 1.1rem;
