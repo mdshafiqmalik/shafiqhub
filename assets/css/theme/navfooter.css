@@ -323,7 +323,7 @@ transition: all 0.5s ease;
 /* Style the icons by setting its color and margin-top value to 20px
 to align it properly */
 .wrapper ul li .fa {
-font-size: 1.4rem;
+font-size: 1.35rem;
 color: #D8E2DC;
 transition: all 0.4s ease;
 }
