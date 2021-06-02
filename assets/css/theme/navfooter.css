@@ -323,15 +323,16 @@ transition: all 0.5s ease;
 /* Style the icons by setting its color and margin-top value to 20px
 to align it properly */
 .wrapper ul li .fa {
+font-size: 1.4rem;
 color: #D8E2DC;
-transition: all 0.5s ease;
+transition: all 0.4s ease;
 }
-
-/* Now target the specific li classes for styling and use box-shadow effect to border and text-shadow effect
-to icons for glowing effect and use transition property for smooth transition effect. */
+.wrapper ul li .facebook{
+  margin-left: -10px;
+}
 /*facebook*/
 .wrapper ul li:hover.facebook {
-border: 5px solid #3b5998;
+border: 2px solid #3b5998;
 box-shadow: 0 0 15px #3b5998;
 transition: all 0.5s ease;
 }
@@ -343,47 +344,21 @@ transition: all 0.5s ease;
 }
 
 /*twitter*/
-.wrapper ul li:hover.twitter {
-border: 5px solid #00aced;
+.wrapper ul li:hover.twitter, .wrapper ul li:hover.linkedin {
+border: 2px solid #00aced;
 box-shadow: 0 0 15px #00aced;
 transition: all 0.5s ease;
 }
 
-.wrapper ul li:hover .fa-twitter {
+.wrapper ul li:hover .fa-twitter, .wrapper ul li:hover .fa-linkedin  {
 color: #00aced;
 text-shadow: 0 0 15px #00aced;
 transition: all 0.5s ease;
 }
 
-/* instagram */
-.wrapper ul li:hover.instagram {
-border: 5px solid #bc2a8d;
-box-shadow: 0 0 15px #bc2a8d;
-transition: all 0.5s ease;
-}
-
-.wrapper ul li:hover .fa-instagram {
-color: #bc2a8d;
-text-shadow: 0 0 15px #bc2a8d;
-transition: all 0.5s ease;
-}
-
-/* google */
-.wrapper ul li:hover.google {
-border: 5px solid #dd4b39;
-box-shadow: 0 0 15px #dd4b39;
-transition: all 0.5s ease;
-}
-
-.wrapper ul li:hover .fa-google {
-color: #dd4b39;
-text-shadow: 0 0 15px #dd4b39;
-transition: all 0.5s ease;
-}
-
 /* whatsapp */
 .wrapper ul li:hover.whatsapp {
-border: 5px solid #4dc247;
+border: 2px solid #4dc247;
 box-shadow: 0 0 15px #4dc247;
 transition: all 0.5s ease;
 }
@@ -805,8 +780,14 @@ letter-spacing: 1px;
     }
   }
 @media (max-width: 767.98px){
+  .wrapper ul li:first-child{
+    margin-left: -20px;
+  }
 .wrapper{
-  margin-top: 1rem;
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    margin-top: 1rem;
   }
   .nav-item .nav-link{
     margin-top: 20px;
