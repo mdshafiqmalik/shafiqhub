@@ -13,7 +13,6 @@ hr{
   margin: auto;
   display: flex;
   flex-direction: column;
-  text-align: center;
   justify-content: center;
 }
 .postTop{
@@ -26,6 +25,8 @@ hr{
 
 }
 .postTop #det{
+  max-width: 700px;
+  text-align: center;
   font-family: 'Domine',serif;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -50,17 +51,19 @@ hr{
 /* Author Section */
 .authorCred{
   align-items: center;
-  max-width: 1000px;
-  margin: 1rem 0rem;
+  max-width: 700px;
+  margin: 1rem 3rem;
  display: grid;
  grid-template-columns: 3fr  8fr;
 }
-
+.authorCred:first-child{
+  text-align: center;
+}
 .aboutAuthor{
   padding: .6rem;
   /* color: white; */
   font-weight: 700;
-  text-align: center;
+  /* text-align: center; */
 }
 .aboutAuthor span{
   text-transform: uppercase;
@@ -69,7 +72,8 @@ hr{
 }
 .authorPic{
   /* border: 2px solid rgb(45, 169, 207); */
-  border-radius: 125px;
+  text-align: center;
+  /* border-radius: 125px; */
   width:130px;
   height:130px;
 }
@@ -137,6 +141,9 @@ hr{
 }
 
 @media (max-width: 767px){
+  .authorCred{
+    margin: 1rem 0rem;
+  }
   hr{
     width: 100%;
     border: 1.5px solid;
@@ -156,6 +163,7 @@ hr{
 @media (max-width: 575.98px) {
     #postTitle{
         font-size:2.2rem;
+        text-align: center;
     }
   .blogsContainer{
     grid-template-columns: 1fr;
