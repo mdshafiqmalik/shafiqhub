@@ -210,7 +210,7 @@ nav {
 #blogAuthor {
     margin: 30px auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 12fr 12fr 1fr;
     grid-gap: 3rem;
 }
 #Frequent, #aboutMe{
@@ -223,14 +223,14 @@ nav {
 .authorCred {
     flex-direction: column;
     display: flex;
-    box-shadow: 0 0 4px 2px grey;
+    /* box-shadow: 0 0 4px 2px grey; */
     padding: 1rem;
     justify-content: center;
     align-items: center;
 }
 #authorDetail p {
     font-size: 1.3rem;
-    text-align: center;
+    /* text-align: center; */
     font-weight: bolder;
 }
 #contactMe a {
@@ -387,7 +387,7 @@ nav {
     #blogAuthor {
         margin: 10px 0;
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 8fr 8fr 1fr;;
     }
     .authorCred {
         box-shadow: none;
