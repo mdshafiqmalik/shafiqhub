@@ -1,5 +1,5 @@
-body{
-
+hr{
+  border: 1px solid;
 }
 .icontainer{
   padding: 2rem;
@@ -373,7 +373,7 @@ nav {
 }
 @media (max-width: 991.98px) {
   .icontainer{
-    margin: 4.5rem .7rem;
+    margin: 4.5rem .7rem 1rem .7rem;
   }
   .viewable{
     margin: auto 1rem;
