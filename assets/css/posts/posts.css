@@ -1,34 +1,39 @@
+body{
+  background-color:#ddd;
+  font-family: 'Domine',serif;
+}
+.post{
+  max-width: 1000px;
+  background-color:#fff;
+  padding: 2.5rem;
+  margin: 7rem auto 2.5rem auto;
+  border-radius: 10px;
+}
+.fwrapper{
+  padding: 0rem 2rem;
+}
 #navbar{
-  padding: 13px 0px 15px 0px !important;
+  padding: 13px 0px 1px 0px !important;
   background-color: indigo;
 }
 hr{
   margin-top: .5rem;
   margin-bottom: .5rem;
+  width: 100%;
+  border: 1.5px solid;
 }
 /* Post Section */
 .c-t{
   padding: 0rem 0rem;
   max-width: 1400px;
   margin: auto;
-  margin-left: 2.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.postTop{
-  /* background-image: url("../../../assets/images/bg/02.png"); */
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 300px;
-  background-position: right;
-  margin-top: 6rem;
-
-}
 .postTop #det{
-  max-width: 700px;
+  /* max-width: 700px; */
   text-align: center;
-  font-family: 'Domine',serif;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -39,7 +44,7 @@ hr{
 }
 #postTitle{
   font-family: 'Barlow Semi Condensed',sans-serif;
-  max-width: 1000px;
+  /* max-width: 1000px; */
   margin-bottom: .6rem;
   font-size: 2.5rem;
   font-weight: 800;
@@ -52,12 +57,11 @@ hr{
 /* Author Section */
 .authorCred{
   align-items: center;
-  max-width: 700px;
   margin: 1rem 0rem;
  display: grid;
  grid-template-columns: 3fr  8fr;
 }
-.authorCred:first-child{
+.authorCred div:nth-child(1){
   text-align: center;
 }
 .aboutAuthor{
@@ -81,16 +85,10 @@ hr{
 .postBody, .postText{
   font-size: 1.7rem;
   margin: auto;
-  max-width: 1400px;
-  padding: 1rem .4rem 1rem 2.5rem;
   font-family: 'Domine',serif;
-  /*letter-spacing: 1px;*/
 }
 .postBody img{
     box-shadow: 0px 0px 2.2px 1.5px grey;
-    margin-bottom: 1rem;
-    display: flex;
-    justify-content:center;
 }
 .postEnd{
   max-width: 1400px;
@@ -102,11 +100,6 @@ hr{
   padding: .5rem 3rem;
 }
 
-/* Related Posts */
-.container{
-  /* margin-right: 6rem; */
-  padding: 0rem 1.3rem;
-}
 .blogsContainer{
   margin-bottom: 20px;
   display: grid;
@@ -133,6 +126,9 @@ hr{
 }
 
 @media (max-width: 991.98px) {
+  .post{
+    margin-top: 6rem;
+  }
   .blogsContainer{
     grid-column-gap: 80px;
   }
@@ -148,10 +144,6 @@ hr{
   .authorCred{
     margin: 1rem 0rem;
   }
-  hr{
-    width: 100%;
-    border: 1.5px solid;
-  }
     .postBody{
         padding:.6rem 0rem;
         font-size: 1.1rem;
@@ -165,13 +157,24 @@ hr{
    }
 }
 @media (max-width: 575.98px) {
+  .post{
+      padding: 1rem;
+  }
     #postTitle{
-        font-size:2.2rem;
+        font-size:2rem;
         text-align: center;
         margin: 0;
     }
   .blogsContainer{
     grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 480px) {
+  .fwrapper{
+    padding: .8rem;
+  }
+  .post{
+    margin-top: 4rem;
   }
 }
 @media (max-width: 400px) {
