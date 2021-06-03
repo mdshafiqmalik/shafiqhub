@@ -16,30 +16,31 @@
   align-items: center;
 }
 .postTop{
-  background-image: url("../../../assets/images/bg/02.png");
+  /* background-image: url("../../../assets/images/bg/02.png"); */
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 300px;
   background-position: right;
-  padding: 2rem;
-  margin-top: 4rem;
+  /* padding: 4rem; */
+  margin-top: 6rem;
 
 }
 .postTop #det{
+  font-family: 'Domine',serif;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 .postTop #det span{
   font-weight:bolder;
-  color: white;
   padding:0rem .8rem;
   text-transform: uppercase;
 }
 #postTitle{
+  font-family: 'Barlow Semi Condensed',sans-serif;
   max-width: 1000px;
   margin-bottom: .6rem;
   font-size: 2.5rem;
-  -webkit-text-stroke: 1px white;
+  /* -webkit-text-stroke: 1px white; */
   font-weight: bolder;
   text-transform: capitalize;
 }
@@ -58,7 +59,7 @@
 
 .aboutAuthor{
   padding: .6rem;
-  color: white;
+  /* color: white; */
   font-weight: 700;
   text-align: center;
 }
@@ -68,7 +69,7 @@
   -webkit-text-stroke: .3px lime;
 }
 .authorPic{
-  border: 2px solid rgb(45, 169, 207);
+  /* border: 2px solid rgb(45, 169, 207); */
   border-radius: 125px;
   width:130px;
   height:130px;

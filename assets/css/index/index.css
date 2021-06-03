@@ -273,7 +273,7 @@ nav {
     color: green;
 }
 .authorPic {
-    border: 2px solid #2da9cf;
+    /* border: 2px solid #2da9cf; */
     border-radius: 125px;
     width: 200px;
     height: 200px;
