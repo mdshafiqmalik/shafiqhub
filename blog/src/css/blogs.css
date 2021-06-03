@@ -1,4 +1,10 @@
-
+.icontainer{
+  padding: 2rem;
+  margin: 6.7rem auto 4rem auto;
+  background-color: #fff;
+  max-width: 900px;
+  border-radius: 10px;
+}
 nav{
   background-color: indigo;
   padding: 15px 0 15px 0 !important;
@@ -6,11 +12,11 @@ nav{
 #Blogs{
  color: red;
 }
-.topSection{
-  /* background-image: url('../../../assets/images/bg/08.png'); */
-  padding-top: 80px;
-  height: 100%;
+hr{
+  margin-top: .5rem;
+  margin-bottom: .5rem;
   width: 100%;
+  border: 1.5px solid;
 }
 .featuredPost{
   margin-left: 0px;
@@ -95,6 +101,12 @@ nav{
 /* Media Queries */
 
 @media (max-width: 991.98px) {
+  .icontainer{
+    margin: 5rem .8rem 1rem .8rem;
+  }
+  .viewable{
+    margin: auto 1rem;
+  }
   #Blogs{
     color: red;
     border: 0;
@@ -104,6 +116,9 @@ nav{
   }
 }
 @media (max-width:767.98px){
+  .icontainer{
+    padding: .5rem;
+  }
   .blogsContainer{
     grid-template-columns: 1fr 1fr;
   }
