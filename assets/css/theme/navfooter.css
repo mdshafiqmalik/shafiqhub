@@ -23,7 +23,8 @@ body {
   -webkit-transition: left 1s cubic-bezier(0.23, 1, 0.320, 1);
   transition: left 1s cubic-bezier(0.23, 1, 0.320, 1);
   scroll-behavior: smooth;
-  background-color: #fff;
+  font-family: 'Domine',serif;
+    background-color: #ddd;
 }
 html {
   overflow-x: hidden;

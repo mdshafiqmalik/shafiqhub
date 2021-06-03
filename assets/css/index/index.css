@@ -1,8 +1,14 @@
-#HeroSectionRow {
-    margin-bottom: 30px;
-    margin-top: 170px;
-    height: auto;
+body{
+
 }
+.icontainer{
+  padding: 2rem;
+  margin: 9rem auto 4rem auto;
+  background-color: #fff;
+  max-width: 900px;
+  border-radius: 10px;
+}
+
 nav {
     background-color: indigo;
 }
@@ -25,7 +31,7 @@ nav {
     margin-top: 0;
     margin-bottom: 25px;
     font-size: 40px;
-    font-family: serif;
+    font-family: 'Barlow Semi Condensed',sans-serif;
     display: inline-block;
 }
 #qoute {
@@ -45,7 +51,6 @@ nav {
     display: inline;
 }
 .HeroBody {
-    border: 0.1px solid;
     background-repeat: no-repeat;
     background-position: center;
     background-blend-mode: lighten;
@@ -208,7 +213,6 @@ nav {
     content: "\f156";
 }
 #blogAuthor {
-    margin: 30px auto;
     display: grid;
     grid-template-columns: 1fr 12fr 12fr 1fr;
     grid-gap: 3rem;
@@ -371,6 +375,12 @@ nav {
     }
 }
 @media (max-width: 991.98px) {
+  .icontainer{
+    margin: 5rem 1rem;
+  }
+  .viewable{
+    margin: auto 1rem;
+  }
     #contactMe {
         display: none;
     }
@@ -432,6 +442,9 @@ nav {
     }
 }
 @media (max-width: 767.98px) {
+  .icontainer{
+    padding: .7rem;
+  }
     #blogAuthor {
         grid-gap: 1rem;
         grid-template-columns: 1fr;
@@ -441,9 +454,6 @@ nav {
     }
     .FAQ {
         grid-template-columns: 1fr;
-    }
-    .whatHelp {
-        padding: 0 0.6rem;
     }
     .tabs::before {
         font-size: 60px;
