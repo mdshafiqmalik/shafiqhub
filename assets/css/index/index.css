@@ -370,23 +370,16 @@ nav {
     #qouteHeading {
         font-size: 30px;
     }
-    #HeroSectionRow {
-        margin-top: 150px;
-    }
 }
 @media (max-width: 991.98px) {
   .icontainer{
-    margin: 5rem 1rem;
+    margin: 4.5rem .7rem;
   }
   .viewable{
     margin: auto 1rem;
   }
     #contactMe {
         display: none;
-    }
-    #HeroSectionRow .dailyQoutes {
-        height: auto;
-        margin-top: 1rem;
     }
     #authorDetail span {
         text-align: center;
@@ -443,7 +436,7 @@ nav {
 }
 @media (max-width: 767.98px) {
   .icontainer{
-    padding: .7rem;
+    padding: .5rem;
   }
     #blogAuthor {
         grid-gap: 1rem;
@@ -482,9 +475,6 @@ nav {
     }
     #qouteHeading {
         font-size: 26px;
-    }
-    .HeroSection #HeroSectionRow {
-        margin-top: 5rem;
     }
     .topSubscribe button {
         padding: 0 20px;
