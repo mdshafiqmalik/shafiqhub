@@ -12,6 +12,12 @@ nav{
 #Blogs{
  color: red;
 }
+.blogTitle a{
+  font-family: 'Barlow Semi Condensed',sans-serif;
+}
+.blogTitle a:hover{
+  color: blue;
+}
 hr{
   margin-top: .5rem;
   margin-bottom: .5rem;
