@@ -11,7 +11,7 @@ hr{
   padding: 0rem 0rem;
   max-width: 1400px;
   margin: auto;
-    margin-left: 2.5rem;
+  margin-left: 2.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -142,6 +142,9 @@ hr{
 }
 
 @media (max-width: 767px){
+  .c-t{
+    margin-left: 0;
+  }
   .authorCred{
     margin: 1rem 0rem;
   }
