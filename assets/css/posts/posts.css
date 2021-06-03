@@ -21,7 +21,6 @@
   background-size: cover;
   min-height: 300px;
   background-position: right;
-  /* padding: 4rem; */
   margin-top: 6rem;
 
 }
@@ -40,8 +39,7 @@
   max-width: 1000px;
   margin-bottom: .6rem;
   font-size: 2.5rem;
-  /* -webkit-text-stroke: 1px white; */
-  font-weight: bolder;
+  font-weight: 1000;
   text-transform: capitalize;
 }
 #readTime{
