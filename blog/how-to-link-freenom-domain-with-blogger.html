@@ -113,8 +113,8 @@
           </div>
         </div><hr>
         <div id="det">
-          <span id="lastMod">23-05-2021</span>
-          <span id="readTime">2 min read</span>
+          <span id="lastMod">Date: 02-06-2021</span>
+          <span id="cct">Loading...</span>
         </div><hr>
     </div>
     </div>
@@ -162,7 +162,17 @@
   <div class="comments post">
      <div class="commentbox"></div>
      <script src="https://unpkg.com/commentbox.io/dist/commentBox.min.js"></script>
-     <script>commentBox('5630243142369280-proj')</script>
+     <script>commentBox('5630243142369280-proj', {
+    onCommentCount(count) {
+        let cct = document.getElementById('cct');
+        if (count<=1) {
+          cct.innerHTML = `${count} Comment`;
+        }else {
+          cct.innerHTML = `${count} Comments`;
+        }
+    }
+     });
+    </script>
   </div>
 </div>
 <div class="fwrapper">
