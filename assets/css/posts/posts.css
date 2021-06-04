@@ -179,9 +179,9 @@ hr{
   .fwrapper{
     padding: .8rem;
   }
-  .post{
-    margin-top: 4rem;
-  }
+}
+.post{
+  margin-top: 4rem;
 }
 @media (max-width: 400px) {
   .aboutAuthor p{
