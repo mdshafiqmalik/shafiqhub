@@ -1,9 +1,31 @@
+.breadcrumb{
+  font-family: 'Barlow Semi Condensed',sans-serif;
+  font-size: 1rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  background-color: #ccc;
+  display: inline-block;
+  padding: .5rem 3rem;
+  border-radius: 5px;
+}
+.breadcrumb span+span::before{
+  font-size: 1.2rem;
+  /* padding: 6px; */
+  color: black;
+  content: "\00BB";
+}
+.breadcrumb a:hover{
+  color: blue;
+}
+.viewable{
+  max-width: 1000px;
+  background-color:#fff;
+  padding: 2.5rem;
+  margin: 6.5rem auto 2.5rem auto;
+  border-radius: 5px;
+}
 .icontainer{
-  padding: 2rem;
-  margin: 6.7rem auto 4rem auto;
-  background-color: #fff;
-  max-width: 900px;
-  border-radius: 10px;
+  padding: 0rem 2rem;
 }
 nav{
   background-color: indigo;
@@ -107,11 +129,8 @@ hr{
 /* Media Queries */
 
 @media (max-width: 991.98px) {
-  .icontainer{
-    margin: 5rem .8rem 1rem .8rem;
-  }
   .viewable{
-    margin: auto 1rem;
+    margin-top: 5rem;
   }
   #Blogs{
     color: red;
@@ -122,15 +141,23 @@ hr{
   }
 }
 @media (max-width:767.98px){
-  .icontainer{
-    padding: .5rem;
-  }
+
   .blogsContainer{
     grid-template-columns: 1fr 1fr;
   }
 
 }
 @media (max-width: 680.98px){
+  .viewable{
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+  }
+  .icontainer{
+    margin: 5rem .7rem 1rem .7rem;
+    padding: .5rem;
+  }
+
   .ftPic{
     display: none;
   }
@@ -150,6 +177,16 @@ hr{
   }
 }
 @media (max-width: 575.98px){
+  .breadcrumb{
+    padding: .5rem 1rem;
+  }
+  .icontainer{
+    padding: .6rem;
+    margin: 4rem 0rem;
+  }
+  .viewable{
+    margin-top: 0rem;
+  }
   .blogsContainer {
       max-width: 400px;
   }
