@@ -2,8 +2,24 @@ body{
   background-color:#ddd;
   font-family: 'Domine',serif;
 }
-.branding{
-  display: none important;
+.breadcrumb{
+  font-family: 'Barlow Semi Condensed',sans-serif;
+  font-size: 1rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  background-color: #ccc;
+  display: inline-block;
+  padding: .5rem 3rem;
+  border-radius: 5px;
+}
+.breadcrumb span+span::before{
+  font-size: 1.2rem;
+  /* padding: 6px; */
+  color: black;
+  content: "\00BB";
+}
+.breadcrumb a:hover{
+  color: blue;
 }
 .post{
   max-width: 1000px;
@@ -165,9 +181,18 @@ hr{
    }
 }
 @media (max-width: 575.98px) {
-  .post{
-      padding: 1rem;
+  .breadcrumb{
+    padding: .5rem 1rem;
   }
+  .fwrapper{
+    padding: .8rem;
+  }
+  .post{
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+  }
+
     #postTitle{
         font-size:2rem;
         text-align: center;
@@ -178,13 +203,7 @@ hr{
   }
 }
 @media (max-width: 480px) {
-  .fwrapper{
-    padding: .8rem;
-  }
-  .post{
-    margin-top: 4rem;
-    margin-bottom: 1rem;
-  }
+
   .comments, .footAds{
     margin-top: 0;
     margin-bottom: 1rem;
