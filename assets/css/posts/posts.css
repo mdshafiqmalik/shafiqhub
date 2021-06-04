@@ -143,6 +143,9 @@ hr{
 }
 
 @media (max-width: 767px){
+  #cct{
+    float: right;
+  }
   .c-t{
     margin-left: 0;
   }
