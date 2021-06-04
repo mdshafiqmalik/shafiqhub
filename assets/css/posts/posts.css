@@ -9,6 +9,9 @@ body{
   margin: 7rem auto 2.5rem auto;
   border-radius: 10px;
 }
+.post:nth-child(2){
+  margin-top: 1rem;
+}
 .fwrapper{
   padding: 0rem 2rem;
 }
