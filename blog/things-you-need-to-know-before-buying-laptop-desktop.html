@@ -186,12 +186,13 @@
         if (count==0) {
           cct.innerHTML = "No Comment";
         }
-        else if (count<1) {
+        else if (count<=1) {
           cct.innerHTML = `${count} Comment`;
         }else {
           cct.innerHTML = `${count} Comments`;
         }
-    });
+    }
+  });
     </script>
   </div>
 </div>
