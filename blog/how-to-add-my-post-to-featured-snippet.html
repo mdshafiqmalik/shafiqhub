@@ -188,13 +188,15 @@
        <script>commentBox('5630243142369280-proj', {
       onCommentCount(count) {
           let cct = document.getElementById('cct');
-          if (count<=1) {
+          if (count==0) {
+            cct.innerHTML = "No Comment";
+          }
+          else if (count<=1) {
             cct.innerHTML = `${count} Comment`;
           }else {
             cct.innerHTML = `${count} Comments`;
           }
-      }
-       });
+      });
       </script>
     </div>
   </div>
