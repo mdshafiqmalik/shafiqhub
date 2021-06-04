@@ -184,6 +184,11 @@ hr{
 }
 .post{
   margin-top: 4rem;
+  margin-bottom: 1rem;
+}
+.comments, .footAds{
+  margin-top: 0;
+  margin-bottom: 1rem;
 }
 @media (max-width: 400px) {
   .aboutAuthor p{
