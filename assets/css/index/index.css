@@ -1,10 +1,13 @@
 
+.viewable{
+  max-width: 1000px;
+  background-color:#fff;
+  padding: 2.5rem;
+  margin: 6.5rem auto 2.5rem auto;
+  border-radius: 5px;
+}
 .icontainer{
-  padding: 2rem;
-  margin: 9rem auto 4rem auto;
-  background-color: #fff;
-  max-width: 900px;
-  border-radius: 10px;
+  padding: 0rem 2rem;
 }
 
 nav {
@@ -370,11 +373,8 @@ nav {
     }
 }
 @media (max-width: 991.98px) {
-  .icontainer{
-    margin: 4.5rem .7rem 1rem .7rem;
-  }
   .viewable{
-    margin: auto 1rem;
+    margin-top: 5rem;
   }
     #contactMe {
         display: none;
@@ -433,6 +433,15 @@ nav {
     }
 }
 @media (max-width: 767.98px) {
+  .viewable{
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+  }
+  .icontainer{
+    margin: 5rem .7rem 1rem .7rem;
+    padding: .5rem;
+  }
   .icontainer{
     padding: .5rem;
   }
@@ -492,6 +501,7 @@ nav {
     }
 }
 @media (max-width: 680.98px){
+
   .blogsContainer {
       grid-template-columns: 1fr;
       max-width: 500px;
@@ -507,6 +517,13 @@ nav {
   }
 }
 @media (max-width: 575.98px) {
+  .icontainer{
+    padding: .6rem;
+    margin: 4rem 0rem 0rem 0rem;;
+  }
+  .footerAds{
+    margin: 0;
+  }
   .blogsContainer {
       grid-template-columns: 1fr;
       max-width: 400px;

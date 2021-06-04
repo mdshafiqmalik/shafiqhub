@@ -182,7 +182,10 @@ hr{
   }
   .icontainer{
     padding: .6rem;
-    margin: 4rem 0rem;
+    margin: 4rem 0rem 0rem 0rem;;
+  }
+  .footerAds{
+    margin: 0;
   }
   .viewable{
     margin-top: 0rem;
