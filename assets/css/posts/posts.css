@@ -10,7 +10,7 @@ body{
   background-color:#fff;
   padding: 2.5rem;
   margin: 6rem auto 2.5rem auto;
-  border-radius: 10px;
+  /* border-radius: 10px; */
 }
 .comments, .footAds{
   margin-top: .9rem;
