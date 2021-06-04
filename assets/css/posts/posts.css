@@ -43,7 +43,7 @@ hr{
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-.postTop #det span{
+.postTop #det span, .postTop #det a{
   font-weight:bolder;
   padding:0rem .8rem;
   text-transform: uppercase;
