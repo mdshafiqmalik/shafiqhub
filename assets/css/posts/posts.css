@@ -133,7 +133,7 @@ hr{
     margin-top: 6rem;
   }
   .comments, .footAds{
-    margin-top: 2rem;
+    margin-top: 0rem;
   }
   .blogsContainer{
     grid-column-gap: 80px;
