@@ -10,7 +10,7 @@ body{
   background-color:#fff;
   padding: 2.5rem;
   margin: 6rem auto 2.5rem auto;
-  /* border-radius: 10px; */
+  border-radius: 5px;
 }
 .comments, .footAds{
   margin-top: .9rem;
@@ -55,7 +55,7 @@ hr{
   font-weight: 800;
   text-transform: capitalize;
 }
-#readTime{
+#cct{
   float: right;
 }
 
@@ -181,15 +181,17 @@ hr{
   .fwrapper{
     padding: .8rem;
   }
+  .post{
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+  }
+  .comments, .footAds{
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
 }
-.post{
-  margin-top: 4rem;
-  margin-bottom: 1rem;
-}
-.comments, .footAds{
-  margin-top: 0;
-  margin-bottom: 1rem;
-}
+
+
 @media (max-width: 400px) {
   .aboutAuthor p{
     font-size: .9rem
