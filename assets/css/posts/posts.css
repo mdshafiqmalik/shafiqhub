@@ -2,7 +2,9 @@ body{
   background-color:#ddd;
   font-family: 'Domine',serif;
 }
-
+.branding{
+  display: none;
+}
 .post{
   max-width: 1000px;
   background-color:#fff;
