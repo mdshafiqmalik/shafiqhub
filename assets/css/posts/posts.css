@@ -2,22 +2,29 @@ body{
   background-color:#ddd;
   font-family: 'Domine',serif;
 }
+nav{
+  position: relative;
+}
 .contents{
+  font-family: sans-serif;
   background-color: #eee;
   max-width: 500px;
   padding: .6rem;
   margin: .6rem;
-  text-align: center;
+
   box-shadow: 0px 0px 2.2px 1.5px grey;
 }
 .contents input{
   display: none;
 }
-.contents #bars:checked ~ ul{
+.contents ul{
   display: none;
 }
-#bars:checked ~ .contents{
-  text-align: left;
+.contents ul li ul{
+  display: block;
+}
+.contents #bars:checked ~ ul{
+  display: block;
 }
 .contents label{
   text-transform: uppercase;
@@ -52,17 +59,17 @@ h2, h3{
   color: blue;
 }
 .post{
+  margin:auto;
   max-width: 1000px;
   background-color:#fff;
   padding: 2.5rem;
-  margin: 6rem auto 2.5rem auto;
   border-radius: 5px;
 }
 .comments, .footAds{
   margin-top: .9rem;
 }
 .fwrapper{
-  padding: 0rem 2rem;
+  padding: 2rem;
 }
 #navbar{
   padding: 13px 0px 1px 0px !important;
@@ -174,9 +181,6 @@ hr{
 }
 
 @media (max-width: 991.98px) {
-  .post{
-    margin-top: 6rem;
-  }
   .comments, .footAds{
     margin-top: 0rem;
   }
@@ -189,6 +193,9 @@ hr{
 }
 
 @media (max-width: 767px){
+  .fwrapper{
+    padding: 1rem;
+  }
   #cct{
     float: right;
   }
@@ -218,7 +225,6 @@ hr{
     padding: .6rem;
   }
   .post{
-    margin-top: 4rem;
     margin-bottom: 1rem;
     padding: 1rem;
   }

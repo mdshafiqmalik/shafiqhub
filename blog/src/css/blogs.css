@@ -21,11 +21,11 @@
   max-width: 1000px;
   background-color:#fff;
   padding: 2.5rem;
-  margin: 6.5rem auto 2.5rem auto;
+  margin: auto;
   border-radius: 5px;
 }
 .icontainer{
-  padding: 0rem 2rem;
+  padding: 2rem;
 }
 nav{
   background-color: indigo;
@@ -129,9 +129,6 @@ hr{
 /* Media Queries */
 
 @media (max-width: 991.98px) {
-  .viewable{
-    margin-top: 5rem;
-  }
   #Blogs{
     color: red;
     border: 0;
@@ -154,7 +151,6 @@ hr{
     padding: 1rem;
   }
   .icontainer{
-    margin: 5rem .7rem 1rem .7rem;
     padding: .5rem;
   }
 
@@ -179,10 +175,6 @@ hr{
 @media (max-width: 575.98px){
   .breadcrumb{
     padding: .5rem 1rem;
-  }
-  .icontainer{
-    padding: .6rem;
-    margin: 4rem 0rem 0rem 0rem;;
   }
   .footerAds{
     margin: 0;

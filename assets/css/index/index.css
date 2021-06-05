@@ -3,7 +3,7 @@
   max-width: 1000px;
   background-color:#fff;
   padding: 2.5rem;
-  margin: 10rem auto 2.5rem auto;
+  margin: 2.5rem auto 2.5rem auto;
   border-radius: 5px;
 }
 .icontainer{
@@ -463,7 +463,7 @@ nav {
     padding: 1rem;
   }
   .icontainer{
-    margin: 5rem .7rem 1rem .7rem;
+    margin: 0rem .7rem 1rem .7rem;
     padding: .5rem;
   }
   .icontainer{
@@ -543,7 +543,6 @@ nav {
 @media (max-width: 575.98px) {
   .icontainer{
     padding: .6rem;
-    margin: 4rem 0rem 0rem 0rem;;
   }
   .footerAds{
     margin: 0;
