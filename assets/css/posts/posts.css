@@ -2,6 +2,37 @@ body{
   background-color:#ddd;
   font-family: 'Domine',serif;
 }
+.contents{
+  font-family: cursive;
+  background-color: #eee;
+  max-width: 500px;
+  padding: .6rem;
+  margin: .6rem;
+  text-align: center;
+  box-shadow: 0px 0px 2.2px 1.5px grey;
+}
+.contents input{
+  display: none;
+}
+.contents #bars:checked ~ ul{
+  display: none;
+}
+#bars:checked ~ .contents{
+  text-align: left;
+}
+.contents label{
+  text-transform: uppercase;
+  font-weight: 1000;
+  text-align: center;
+}
+.contents .fa{
+  float: right;
+  font-size: 1.5rem;
+}
+h2, h3{
+  font-family: 'Barlow Semi Condensed',sans-serif;
+  font-weight: 700;
+}
 .breadcrumb{
   font-family: 'Barlow Semi Condensed',sans-serif;
   font-size: 1rem;
@@ -217,6 +248,7 @@ hr{
   }
 }
 @media (max-width: 350px) {
+
   .authorCred{
     margin: 1rem 0px;
     grid-template-columns: 1fr;
@@ -230,4 +262,9 @@ hr{
   .postTop #det span{
     padding: .7rem;
   }
+}
+@media (max-width:310px) {
+  #barlines{
+      display: none;
+    }
 }

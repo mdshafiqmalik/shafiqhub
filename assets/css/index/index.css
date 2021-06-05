@@ -3,7 +3,7 @@
   max-width: 1000px;
   background-color:#fff;
   padding: 2.5rem;
-  margin: 6.5rem auto 2.5rem auto;
+  margin: 10rem auto 2.5rem auto;
   border-radius: 5px;
 }
 .icontainer{
@@ -67,7 +67,7 @@ nav {
     font-size: 23px;
     font-weight: bolder;
     text-transform: capitalize;
-    color: #000;
+    /* color: #000; */
     padding: 5px 20px;
     border-radius: 20px;
     margin-left: 20px;
@@ -76,7 +76,7 @@ nav {
     position: relative;
     content: "\f138";
     font-weight: bolder;
-    color: #000;
+    /* color: #000; */
     right: -8px;
     top: 43%;
     -webkit-transform: translateY(-50%);
@@ -86,6 +86,29 @@ nav {
     font-size: 23px;
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
+
+}
+.visitBlogs a:hover::after{
+    animation: rotateIt .5s ease-out;
+}
+@keyframes rotateIt{
+  0%{
+    transform: rotate(0deg);
+    top: 0%;
+  }
+  25%{
+        transform: rotate(90deg);
+  }
+  50%{
+        transform: rotate(180deg);
+  }
+  75%{
+        transform: rotate(270deg);
+  }
+  100%{
+        transform: rotate(360deg);
+        top: 0%;
+  }
 }
 .visitBlogs a:hover,
 .visitBlogs a:hover::after {
@@ -343,6 +366,7 @@ nav {
     transform: rotateZ(49deg);
 }
 .questions::before {
+  font-family: sans-serif;
     display: inline-block;
     content: "+";
     transition: rotate ease 1s;

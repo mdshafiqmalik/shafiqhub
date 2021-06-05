@@ -13,10 +13,11 @@ nav{
 .terms{
   padding: 0;
 }
-.terms h2{
+h2{
+  font-family: 'Barlow Semi Condensed',sans-serif;
   margin-top: 3rem;
   text-transform: uppercase;
-  font-weight: bolder;
+  font-weight: 700;
   font-size: 1.6rem;
 }
 .adSlot{
