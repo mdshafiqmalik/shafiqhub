@@ -39,3 +39,44 @@ document.addEventListener("DOMContentLoaded",function(){
 });
 // Widnow Location jQuery
 }(jQuery));
+$.getScript('https://www.gstatic.com/firebasejs/3.2.1/firebase.js', function () {
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyCKjB8oCGQ6oBWTdUQea18vsJLIAsU5NFE",
+  authDomain: "shafiqhub-db.firebaseapp.com",
+  databaseURL: "https://shafiqhub-db-default-rtdb.firebaseio.com",
+  projectId: "shafiqhub-db",
+  storageBucket: "shafiqhub-db.appspot.com",
+  messagingSenderId: "647856676003",
+  appId: "1:647856676003:web:04d1b539d00471b2db7316",
+  measurementId: "G-Z5TN9P43EY"
+};
+firebase.initializeApp(config);
+var rootRef = firebase.database().ref();
+var pageViewsRef = rootRef.child('pageviews');
+if (window && window.location && window.location.pathname) {
+
+  /****
+   *
+   * update page views
+   *
+   ****/
+  var pathkey = slug(window.location.pathname);
+  pageRef = pageViewsRef.child(pathkey);
+  var counted = false;
+
+  pageRef.on('value', function (pageviews) {
+    var pageviewsCount = pageviews.val();
+    var $pageviews = $('.pageviews');
+    $pageviews.attr('title', pageviewsCount + ' people saw this post');
+    $pageviews.text(pageviewsCount);
+    $pageviews.addClass('initialized');
+    if (!counted) {
+      counted = true;
+      pageRef.transaction(function (views) {
+        return views + 1;
+      })
+    }
+  });
+}
+});
