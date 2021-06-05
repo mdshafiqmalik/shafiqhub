@@ -51,7 +51,7 @@ const firebaseConfig = {
   appId: "1:647856676003:web:04d1b539d00471b2db7316",
   measurementId: "G-Z5TN9P43EY"
 };
-firebase.initializeApp(config);
+firebase.initializeApp(firebaseConfig);
 var rootRef = firebase.database().ref();
 var pageViewsRef = rootRef.child('pageviews');
 if (window && window.location && window.location.pathname) {
