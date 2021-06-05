@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded",function(){
 });
 // Widnow Location jQuery
 }(jQuery));
-$.getScript('https://www.gstatic.com/firebasejs/3.2.1/firebase.js', function () {
+$.getScript('https://www.gstatic.com/firebasejs/8.6.5/firebase-app.js', function () {
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
   apiKey: "AIzaSyCKjB8oCGQ6oBWTdUQea18vsJLIAsU5NFE",
@@ -55,12 +55,7 @@ firebase.initializeApp(firebaseConfig);
 var rootRef = firebase.database().ref();
 var pageViewsRef = rootRef.child('pageviews');
 if (window && window.location && window.location.pathname) {
-
-  /****
-   *
-   * update page views
-   *
-   ****/
+// update page views
   var pathkey = slug(window.location.pathname);
   pageRef = pageViewsRef.child(pathkey);
   var counted = false;
@@ -75,7 +70,7 @@ if (window && window.location && window.location.pathname) {
       counted = true;
       pageRef.transaction(function (views) {
         return views + 1;
-      })
+      });
     }
   });
 }
