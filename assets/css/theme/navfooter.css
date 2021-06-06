@@ -110,7 +110,7 @@ nav .top-bar ul.links li a:hover {
 nav {
   z-index: 999;
   width: 100%;
-  padding: 67px 0 13px 0 !important;
+padding: 60px 0px 13px 0px !important;
   -webkit-transition: all .25s linear;
   transition: all .25s linear;
 }
