@@ -50,7 +50,7 @@ let Qoutes = [
     authour:"Frank Wilczek"
   },
   {
-    qoute:"  You can never get enough of what you don’t really need",
+    qoute:" You can never get enough of what you don’t really need",
     authour:"Eric Hoffer"
   },
   {
