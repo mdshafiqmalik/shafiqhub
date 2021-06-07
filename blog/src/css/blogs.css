@@ -1,16 +1,25 @@
 .breadcrumb{
-  font-family:'Barlow Semi Condensed',sans-serif;
+  font-family: 'Barlow Semi Condensed',sans-serif;
   font-size: 1rem;
   font-weight: 800;
   margin-bottom: 1rem;
+  padding: .5rem 1rem;
   background-color: #ddd;
   display: inline-block;
-  padding: .5rem 3rem;
   border-radius: 5px;
 }
-.breadcrumb span+span::before{
+.breadcrumb ul{
+  margin-left: -2.1rem;
+  text-decoration: none;
+  list-style:none;
+  margin-bottom: 0;
+}
+.breadcrumb ul li{
+  display: inline;
+  text-align: left;
+}
+.breadcrumb ul li+li::before{
   font-size: 1.2rem;
-  /* padding: 6px; */
   color: black;
   content: "\00BB";
 }
