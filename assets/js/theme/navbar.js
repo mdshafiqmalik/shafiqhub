@@ -1,6 +1,7 @@
 (function ($) {
 'use strict';
 // -- :: Loading Page
+$('html').css('overflow-y', 'visible');
 // ----------------------------------
 // -- :: Navbar
 $(window).on('scroll', function () {
