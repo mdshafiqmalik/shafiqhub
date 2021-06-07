@@ -116,7 +116,6 @@ nav {
     color: #fff;
 }
 .tagsSection {
-    margin-bottom: 20px;
     padding: 0 150px;
 }
 .tags a,
@@ -325,7 +324,6 @@ nav {
     background-color: orange;
 }
 .blogsContainer {
-    margin: 10px auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 1rem;
