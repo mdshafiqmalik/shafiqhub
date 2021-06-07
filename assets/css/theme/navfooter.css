@@ -103,7 +103,7 @@ nav .top-bar ul.links li a {
 }
 
 nav .top-bar ul.links li a:hover {
-  /* color: var(--thBlue); */
+  color: var(--thBlue);
 }
 
 /* -- :: Navbar :: -- */
@@ -523,7 +523,7 @@ letter-spacing: 1px;
     height: 100%;
     top: 0;
     right: 0;
-    background: gray;
+    background: white;
     -webkit-transition: all 0.3s linear;
     transition: all 0.3s linear;
   }
