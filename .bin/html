@@ -1,4 +1,4 @@
-<!-- 
+<!--
   <div class="Category2">
     <div class="container">
       <div class="howToPosts" id="howToPosts">
@@ -91,3 +91,20 @@
     <!-- </div>
     </div>
     </div> -->
+
+
+
+    subscribe form
+
+    <!-- ::Subscribe Form -->
+    <!-- <div class="col-lg-4 col-md-6 col-sm-11 subscribeFormDiv"> -->
+      <!-- <div class="">
+      <form class="subscribeForm"  method="POST">
+      <p>Submit your email and name to get mails from us</p>
+      <input id="subsName" type="text" name="subs_name" value="" placeholder="Enter Your Name">
+      <input id="subsEmail" type="email" name="subs_email" value="" placeholder="Enter Your Email">
+      <button type="submit" name="subsSubmit" id="subsSubmit">SUBMIT</button>
+      <span id="statusMessage" class=""></span>
+    </form>
+  </div> -->
+  <!-- </div> -->
