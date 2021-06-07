@@ -1,11 +1,6 @@
 (function ($) {
 'use strict';
 // -- :: Loading Page
-$('html').css('overflow-y', 'visible');
-$(window).on('load', function () {
-  $('#loading').fadeOut(1000);
-  $('html').css('overflow-y', 'visible');
-});
 // ----------------------------------
 // -- :: Navbar
 $(window).on('scroll', function () {
@@ -13,7 +8,6 @@ $(window).on('scroll', function () {
     $('.top-bar').removeClass('d-lg-block');
     $('nav').css('padding-top', '20px');
     $('nav').addClass('scrolled');
-    $('body').css('overflow','hidden');
   } else {
     $('nav').removeClass('scrolled');
     $('.top-bar').addClass('d-lg-block');

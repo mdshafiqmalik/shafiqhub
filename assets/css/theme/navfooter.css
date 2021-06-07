@@ -103,7 +103,7 @@ nav .top-bar ul.links li a {
 }
 
 nav .top-bar ul.links li a:hover {
-  color: var(--thBlue);
+  /* color: var(--thBlue); */
 }
 
 /* -- :: Navbar :: -- */
