@@ -459,7 +459,7 @@ nav {
 @media (max-width: 767.98px) {
   .viewable{
     margin-bottom: 1rem;
-    padding: 1rem;
+    padding: .3rem 1rem;
   }
   .icontainer{
     margin: 1rem;
