@@ -13,6 +13,7 @@ $(window).on('scroll', function () {
     $('.top-bar').removeClass('d-lg-block');
     $('nav').css('padding-top', '20px');
     $('nav').addClass('scrolled');
+    $('body').css('overflow','hidden');
   } else {
     $('nav').removeClass('scrolled');
     $('.top-bar').addClass('d-lg-block');
