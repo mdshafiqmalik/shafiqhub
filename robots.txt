@@ -1,0 +1,4 @@
+user-agent: *
+disallow: /luckydraw/
+disallow: /bin/
+sitemap: https://www.shafiqhub.com/sitemap.xml
