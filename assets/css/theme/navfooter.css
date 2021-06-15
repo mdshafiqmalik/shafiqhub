@@ -786,6 +786,7 @@ letter-spacing: 1px;
               transform: translate(-50%, 200%);
     }
   }
+}
 @media (max-width: 767.98px){
   .wrapper ul li:first-child{
     margin-left: -20px;
@@ -814,5 +815,4 @@ letter-spacing: 1px;
     margin-left: 0px;
     letter-spacing: 2px;
   }
-  /* -- :: Footer */
 }
