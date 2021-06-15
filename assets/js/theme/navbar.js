@@ -7,7 +7,6 @@ $('html').css('overflow-y', 'visible');
 $(window).on('scroll', function () {
   if($(window).scrollTop() > 20 ) {
     $('.top-bar').removeClass('d-lg-block');
-    $('nav').css('padding-top', '20px');
     $('nav').addClass('scrolled');
   } else {
     $('nav').removeClass('scrolled');

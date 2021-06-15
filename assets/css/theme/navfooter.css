@@ -30,7 +30,12 @@ html {
   overflow-x: hidden;
   overflow-y: hidden;
 }
-
+#logoText{
+  margin-bottom: 0;;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bolder;
+  color: white;
+}
 /* -- :: Navbar */
 
 /* top bar */
@@ -41,7 +46,9 @@ nav .top-bar {
   background: #fff;
   padding: 10px 0;
 }
-
+.navbar{
+  padding: 0;;
+}
 /* news */
 nav .top-bar .news {
   font-size: 14px;
@@ -110,7 +117,6 @@ nav .top-bar ul.links li a:hover {
 nav {
   z-index: 999;
   width: 100%;
-padding: 60px 0px 13px 0px !important;
   -webkit-transition: all .25s linear;
   transition: all .25s linear;
 }
@@ -399,7 +405,7 @@ letter-spacing: 1px;
   /* -- :: Navbar */
   nav {
     background: transparent;
-    padding: 12px 0 12px 0 !important;
+    padding: 0 0 12px 0 !important;
     box-shadow: none;
   }
   .nav-item .nav-link{
@@ -418,7 +424,7 @@ letter-spacing: 1px;
     left: 0;
     top: 0;
     right: 0;
-    height: 60px;
+    height: 55px;;
     background: indigo;
     z-index: -1;
   }
@@ -483,7 +489,7 @@ letter-spacing: 1px;
   }
   .navbar-expand-lg > .container,
   .navbar-expand-lg > .container-fluid {
-    padding: 0 15px;
+    padding: 3px 15px;
   }
   /* Toggle Nav Button */
   nav .navbar-toggler {
@@ -809,6 +815,4 @@ letter-spacing: 1px;
     letter-spacing: 2px;
   }
   /* -- :: Footer */
-}
-@media (max-width: 440px) {
 }

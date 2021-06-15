@@ -11,7 +11,6 @@ nav{
   max-width: 500px;
   padding: .6rem;
   margin: .6rem;
-
   box-shadow: 0px 0px 2.2px 1.5px grey;
 }
 .contents input{
@@ -34,6 +33,9 @@ nav{
 .contents .fa{
   float: right;
   font-size: 1.5rem;
+}
+.contents label:hover, .contents .fa:hover{
+  cursor: pointer;
 }
 h2, h3{
   font-family: 'Barlow Semi Condensed',sans-serif;

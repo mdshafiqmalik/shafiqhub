@@ -394,6 +394,9 @@ nav {
     }
 }
 @media (max-width: 991.98px) {
+    #logoText{
+        font-size: 2rem;
+    }
   .viewable{
     margin-top: 0rem;
   }
@@ -611,7 +614,6 @@ nav {
     }
     .buttons {
         display: inline-block;
-        float: left;
         margin-left: 20px;
         margin-right: 0;
     }
