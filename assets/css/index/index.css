@@ -455,6 +455,9 @@ nav {
     }
 }
 @media (max-width: 767.98px) {
+  #Frequent, #aboutme, #qouteHeading{
+    margin-top: .6rem;
+  }
   .viewable{
     margin-bottom: 1rem;
     padding: .3rem 1rem;
@@ -464,7 +467,7 @@ nav {
     padding: .5rem;
   }
   .icontainer{
-    padding: .5rem;
+    padding:.5rem;
   }
     #blogAuthor {
         grid-gap: 1rem;
