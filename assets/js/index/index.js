@@ -85,6 +85,10 @@ let Qoutes = [
     qoute:"I hear: I forget / I see: I remember / I do: I understand",
     authour:"Chinese Proverb"
   },
+   {
+     qoute:"The best way to earn money is to tel other people how to earn money",
+     authour:"Shafiq Malik"
+   },
   {
     qoute:"Discipline is just choosing between what you want now and what you want most",
     authour:"Unknown Author"
