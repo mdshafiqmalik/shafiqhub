@@ -397,7 +397,6 @@ text-transform: capitalize;
 letter-spacing: 1px;
 }
 
-
 /* -- :: Media Query for different Screens*/
 @media (max-width: 1189px){
 }
@@ -789,7 +788,7 @@ letter-spacing: 1px;
 }
 @media (max-width: 767.98px){
   .wrapper ul li:first-child{
-    margin-left: -20px;
+    /* margin-left: -20px; */
   }
 .wrapper{
     display: grid;
@@ -805,6 +804,13 @@ letter-spacing: 1px;
 }
 @media (max-width: 575.98px) {
   /* -- :: Navbar */
+  .wrapper ul{
+    margin: auto;
+    padding: 0;
+  }
+  .wrapper ul li{
+    margin-top: .5rem;
+  }
   nav .navbar-nav {
     max-width: 100%;
     overflow: auto;
@@ -815,4 +821,9 @@ letter-spacing: 1px;
     margin-left: 0px;
     letter-spacing: 2px;
   }
+}
+@media (max-width: 300px) {
+   .wrapper ul{
+     padding-left: 1.1rem;
+   }
 }
