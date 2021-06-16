@@ -37,7 +37,7 @@
   border-radius: 5px;
 }
 .icontainer{
-  padding: 2rem;
+  padding: 1rem 2rem;
 }
 nav{
   background-color: indigo;
@@ -46,7 +46,7 @@ nav{
 #Blogs{
  color: red;
 }
-.blogTitle a{
+.blogTitle a, .Blogs{
   font-family: 'Barlow Semi Condensed',sans-serif;
 }
 .blogTitle a:hover{
@@ -79,6 +79,7 @@ hr{
   font-family: arial;
 }
 .featuredPost .blogTitle{
+  border: 0;
   color: black;
   padding: 0rem 1rem .4rem 0rem;
   background-image: none;
@@ -89,6 +90,8 @@ hr{
 }
 .blogTitle{
   padding: 1rem;
+  border-radius: 5px;
+  border: 2px double #bbb;
 }
 
 #readMore{
@@ -128,7 +131,6 @@ hr{
 .Blogs {
   background-position: center;
   display: grid;
-  grid-template-rows: 1.5fr 0.25fr;
   font-weight: 600;
   font-size: 1.4rem;
 }
@@ -174,7 +176,7 @@ hr{
       max-width: 500px;
   }
   .blogTitle {
-      padding: 0.1rem 0.6rem 0 0.6rem;
+      padding: 0.8rem;
   }
   .Blogs {
       font-size: 1.1rem;
