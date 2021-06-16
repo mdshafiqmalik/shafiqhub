@@ -85,6 +85,7 @@ nav {
     font-size: 23px;
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
+      transition: Fast Out, Linear In;
 
 }
 .visitBlogs a:hover::after{
@@ -95,13 +96,7 @@ nav {
     transform: rotate(0deg);
     top: 0%;
   }
-  25%{
-        transform: rotate(90deg);
-  }
-  50%{
-        transform: rotate(180deg);
-  }
-  75%{
+  50{
         transform: rotate(270deg);
   }
   100%{
