@@ -225,9 +225,12 @@ hr{
     display: none;
   }
   .contents{
+
     border: 1px solid indigo;
   }
   .abs{
+    max-width: 200px;
+    min-width: 100px;
     position: fixed;
     top: 1.5rem;
     right: 1rem;
