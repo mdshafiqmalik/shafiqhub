@@ -18,8 +18,8 @@ $(window).on('scroll', function () {
   }
 });
 // Posts
-document.addEventListener("resize", breadCrumb);
-function breadCrumb(){
+window.addEventListener("resize", responsiveToc);
+function responsiveToc(){
   if($(document).width() < 991) {
       mobToc.innerHTML = breadCrumb;
       deskToc.innerHTML = "";
@@ -29,12 +29,13 @@ function breadCrumb(){
     deskToc.innerHTML = breadCrumb;
   }
 }
-
 $(window).on('scroll', function (){
-  if($(window).scrollTop() > 40 ) {
-      $(".contents").addClass("abs")
+  if($(window).scrollTop() > 300 ) {
+      $(".contents").addClass("abs");
+      $("label:first-child").css("display", "none");
   }else {
-      $(".contents").removeClass("abs")
+      $(".contents").removeClass("abs");
+      $("label:first-child").css("display", "inline");
   }
 });
 $('nav button').on('click', function() {
@@ -43,7 +44,7 @@ $('nav button').on('click', function() {
 
 
 document.addEventListener("DOMContentLoaded",function(){
-  breadCrumb();
+  responsiveToc();
   if ($(document).width() < 974) {
     // Add slideDown animation to Bootstrap dropdown when expanding.
     $('.dropdown').on('show.bs.dropdown', function() {
