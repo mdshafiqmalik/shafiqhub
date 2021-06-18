@@ -229,8 +229,10 @@ hr{
     border: 1px solid indigo;
   }
   .abs{
-    max-width: 250px;
+    max-width: 80%;
     min-width: 150px;
+    max-height: 97vh;
+    overflow: scroll;
     position: fixed;
     top: 1.5rem;
     right: 1rem;
