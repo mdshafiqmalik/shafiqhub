@@ -27,8 +27,6 @@ nav{
 .contents{
   width: 100%;
   font-family: sans-serif;
-  max-width: 300px;
-  min-width: 300px;
   background-color: white;
   padding: .6rem;
   border-radius: 5px;
@@ -229,8 +227,8 @@ hr{
     border: 1px solid indigo;
   }
   .abs{
-    max-width: 80%;
-    min-width: 150px;
+    max-width: 300px;
+    min-width: 200px;
     max-height: 97vh;
     overflow: scroll;
     position: fixed;
@@ -326,9 +324,9 @@ hr{
   .postTop #det span{
     padding: .7rem;
   }
+  .abs{
+    max-width: 90%;
+  }
 }
 @media (max-width:310px) {
-  #barlines{
-      display: none;
-    }
 }
