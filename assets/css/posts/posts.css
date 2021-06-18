@@ -25,7 +25,6 @@ nav{
   position: relative;
 }
 .contents{
-  width: 100%;
   font-family: sans-serif;
   background-color: white;
   padding: .6rem;
@@ -227,8 +226,8 @@ hr{
     border: 1px solid indigo;
   }
   .abs{
-    max-width: 300px;
-    min-width: 200px;
+    /* max-width: 300px; */
+    /* min-width: 200px; */
     max-height: 97vh;
     overflow: scroll;
     position: fixed;
