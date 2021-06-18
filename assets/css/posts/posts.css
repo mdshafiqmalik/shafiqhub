@@ -227,11 +227,19 @@ hr{
   .contents{
     border: 1px solid indigo;
   }
+  .abs{
+    position: fixed;
+    top: 1.5rem;
+    right: 1rem;
+  }
   .contents #bars:checked ~ ul{
     display:  block;
   }
   .sidebar .sp{
     margin-left: 0px;
+  }
+  .sidebar{
+    display: none;
   }
   .big{
     grid-template-columns: 1fr;
