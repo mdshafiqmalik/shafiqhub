@@ -258,7 +258,7 @@ hr{
   }
   .abs{
     max-height: 97vh;
-    max-width: 97vw;
+    max-width: 92vw;
     overflow: scroll;
     position: fixed;
     top: 1.5rem;
