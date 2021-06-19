@@ -53,6 +53,7 @@ nav{
 .contents{
   font-family: sans-serif;
   background-color: white;
+  min-width: 300px;
   padding: .6rem;
   border-radius: 5px;
 
