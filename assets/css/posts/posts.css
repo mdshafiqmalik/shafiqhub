@@ -259,6 +259,7 @@ hr{
     display: none;
   }
   .contents{
+    min-width: initial;
     margin: 1rem auto;
     border: 1px solid indigo;
   }
