@@ -5,7 +5,6 @@ body{
 .Icons{
   display: flex;
   justify-content: center;
-  border-top: 1px solid indigo;
 }
 .Icons .linkedin, .Icons .facebook{
   color: #135cb6;
@@ -151,10 +150,13 @@ hr{
   justify-content: center;
 }
 .postTop #det{
-  /* max-width: 700px; */
+  margin: 1rem;
   text-align: center;
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+#lastMod{
+  color: #444;
 }
 .postTop #det span, #cct{
   font-weight:bolder;
@@ -243,6 +245,9 @@ hr{
       max-width: 95%;
 }
 @media (max-width: 991.98px) {
+  .Icons{
+    border-top: 1px solid indigo;
+  }
   .blogsContainer{
     grid-column-gap: 80px;
   }
@@ -253,7 +258,7 @@ hr{
     display: none;
   }
   .contents{
-
+    margin: 1rem auto;
     border: 1px solid indigo;
   }
   .abs{
