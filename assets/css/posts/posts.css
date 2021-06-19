@@ -18,8 +18,8 @@ body{
 .cf{
 margin: 4%;
 display: block;
-width: 42px;
-height: 42px;
+width: 48px;
+height: 48px;
 --shadow-color: rgba(var(--service-color-rgb, 0,0,0), 0.18);
 box-shadow: -1px -1px 2px 0px rgba(0, 0, 0, 0.05), 1px 3px 5px -1px var(--shadow-color);
 border-radius: 50%;
