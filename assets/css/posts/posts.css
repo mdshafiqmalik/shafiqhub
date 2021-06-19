@@ -36,6 +36,10 @@ nav{
 }
 .contents ul{
   display: block;
+  margin-top: 1rem;
+}
+.contents ul li{
+  margin: .5rem;
 }
 .contents ul li ul{
   display: block;

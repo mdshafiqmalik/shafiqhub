@@ -32,10 +32,10 @@ function responsiveToc(){
 $(window).on('scroll', function (){
   if($(window).scrollTop() > 300 ) {
       $(".contents").addClass("abs");
-      $("label:first-child").css("display", "none");
+      $("#mobToc label:first-child").css("display", "none");
   }else {
       $(".contents").removeClass("abs");
-      $("label:first-child").css("display", "inline");
+      $("#mobToc label:first-child").css("display", "inline");
   }
 });
 $('nav button').on('click', function() {
