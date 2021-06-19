@@ -2,6 +2,35 @@ body{
   background-color:#ddd;
   font-family: 'Domine',serif;
 }
+.Icons{
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid indigo;
+}
+.Icons .linkedin, .Icons .facebook{
+  color: #135cb6;
+}
+.Icons .whatsapp{
+  color: lime;
+}
+.Icons .twitter{
+  color: #089fc5;
+}
+.cf{
+margin-top: 2%;
+margin-right: 4%;
+margin-bottom: 12px;
+display: block;
+width: 42px;
+height: 42px;
+--shadow-color: rgba(var(--service-color-rgb, 0,0,0), 0.18);
+box-shadow: -1px -1px 2px 0px rgba(0, 0, 0, 0.05), 1px 3px 5px -1px var(--shadow-color);
+border-radius: 50%;
+color: #111;
+font-size: 17px;
+line-height: 44px;
+text-align: center;
+}
 .big{
   max-width: 1300px;
   margin: auto;
