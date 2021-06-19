@@ -150,7 +150,7 @@ hr{
   justify-content: center;
 }
 .postTop #det{
-  margin: 1rem;
+  margin: 1rem auto;
   text-align: center;
   display: grid;
   grid-template-columns: 1fr 1fr;
