@@ -4,6 +4,7 @@ body{
 }
 .navigate{
   margin-bottom: .9rem;
+  width: auto;
 }
 .navigate div{
   background-color: darkblue;
