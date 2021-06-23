@@ -2,6 +2,33 @@ body{
   background-color:#ddd;
   font-family: 'Domine',serif;
 }
+.navigate div{
+  background-color: darkblue;
+  color: white;
+  min-width: 100px;
+  text-align: center;
+}
+.navigate div a{
+  color: white;
+  font-weight: bold;
+  padding: 3px;
+}
+#forward::after{
+  content: "\00BB";
+}
+#backward::before{
+  content: "\00BB";
+  display: inline-block;
+  -webkit-transform: rotate(180deg);
+}
+#backward{
+  float: left;
+  margin-left:.5rem;
+}
+#forward{
+  float: right;
+  margin-right: .5rem;
+}
 ::-webkit-scrollbar{
   width: 1px;
   color: transparent;
@@ -58,8 +85,7 @@ nav{
   background-color: white;
   min-width: 300px;
   padding: .6rem;
-  border-radius: 5px;
-
+  border-top: 1px solid indigo;
 }
 .contents ul{
   max-height: 70vh;
@@ -104,8 +130,6 @@ h2, h3{
 .postBody h2{
   margin-top: 1rem;
   background-color: #eee;
-  /* color: white; */
-  /* border: .3px solid indigo; */
   display: inline-block;
   font-size: 1.5rem;
   border-left: 12px solid indigo;
@@ -279,6 +303,7 @@ hr{
     display: none;
   }
   .contents{
+    border-radius: 5px;
     min-width: initial;
     margin: 1rem auto;
     border: 1px solid indigo;

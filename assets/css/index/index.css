@@ -85,7 +85,7 @@ nav {
     font-size: 23px;
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
-      transition: Fast Out, Linear In;
+    transition: Fast Out, Linear In;
 
 }
 .visitBlogs a:hover::after{
