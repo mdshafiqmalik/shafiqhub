@@ -70,7 +70,11 @@ nav{
 }
 .contents ul{
   display: block;
+  font-weight: bold;
   margin-top: 1rem;
+}
+.contents a:hover{
+  color: blue;
 }
 .contents ul li{
   margin: .5rem;
@@ -176,7 +180,9 @@ hr{
 .postTop #det span, #cct{
   font-weight:bolder;
   padding:0rem .8rem;
-  text-transform: uppercase;
+}
+#det a:hover{
+  color: blue;
 }
 #postTitle{
   font-family: 'Barlow Semi Condensed',sans-serif;
