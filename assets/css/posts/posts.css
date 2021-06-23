@@ -2,6 +2,9 @@ body{
   background-color:#ddd;
   font-family: 'Domine',serif;
 }
+.navigate{
+  margin-bottom: .9rem;
+}
 .navigate div{
   background-color: darkblue;
   color: white;
