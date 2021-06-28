@@ -21,13 +21,15 @@ $(window).on('scroll', function () {
 // Posts
 window.addEventListener("resize", responsiveToc);
 function responsiveToc(){
-  if($(document).width() < 991) {
-      mobToc.innerHTML = breadCrumb;
-      deskToc.innerHTML = "";
-  }
-  else{
-    mobToc.innerHTML = "";
-    deskToc.innerHTML = breadCrumb;
+  if (typeof(breadCrumb) !== undefined) {
+    if($(document).width() < 991) {
+        mobToc.innerHTML = breadCrumb;
+        deskToc.innerHTML = "";
+    }
+    else{
+      mobToc.innerHTML = "";
+      deskToc.innerHTML = breadCrumb;
+    }
   }
 }
 $(window).on('scroll', function (){

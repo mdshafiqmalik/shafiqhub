@@ -7,6 +7,7 @@ body{
   width: auto;
 }
 .navigate div{
+    padding: 3px 6px;
   background-color: darkblue;
   color: white;
   min-width: 100px;
@@ -15,7 +16,7 @@ body{
 .navigate div a{
   color: white;
   font-weight: bold;
-  padding: 3px;
+
 }
 #forward::after{
   content: "\00BB";
@@ -78,7 +79,7 @@ text-align: center;
   margin-right: .6rem;
   margin-left: -20px;
   min-width: 100px;
-  padding: 0;
+  padding: 2rem;
   transition: all .2s ease-in-out 1s;
 }
 nav{
