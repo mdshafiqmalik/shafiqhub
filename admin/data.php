@@ -1,8 +1,7 @@
 
 <?php
 date_default_timezone_set("Asia/Kolkata");
-$present_date = date("d-m-Y")."T".date("H:i:s"."+05:30");
-$non_static_data =
+$present_date = date("Y-m-d")."T".date("H:i:s"."+05:30");
 $blog_static_meta = array(
  '<meta charset="UTF-8">',
  '<meta property="og:locale" content="en_US" />',
