@@ -76,3 +76,266 @@ index.min.class
 //   measurementId: "G-Z5TN9P43EY"
 // };
 // firebase.initializeApp(firebaseConfig);
+
+
+
+
+
+
+qoutes = {
+  june:{
+    {
+      qoute: "", author: "Woody Allen" },
+    {
+      qoute: "I respect faith, but doubt is what gets you an education",
+      author: "Wilson Mizner"
+    },
+    {
+      qoute: "  It’s not that I’m so smart, it’s just that I stay with problems longer",
+      author: "Albert Einstein"
+    },
+    {
+      qoute: "The greatest obstacle to discovery is not ignorance; it is the illusion of knowledge",
+      author: "Daniel J. Boorstin"
+    },
+    {
+      qoute: "The pessimist complains about the wind; the optimist expects it to change; the realist adjusts the sails",
+      author: "William Arthur Ward"
+    },
+    {
+      qoute: " If you don’t make mistakes, you’re not working on hard enough problems. And that’s a big mistake",
+      author: "Frank Wilczek"
+    },
+    {
+      qoute: "You can never get enough of what you don’t really need",
+      author: "Eric Hoffer"
+    },
+    {
+      qoute: "Insanity: doing the same thing over and over again and expecting different results",
+      author: "Albert Einstein"
+    },
+    {
+      qoute: "Do not confuse motion and progress. A rocking horse keeps moving but does not make any progress",
+      author: "Alfred A. Montapert"
+    },
+    {
+      qoute: "I don’t know the key to success, but the key to failure is trying to please everybody",
+      author: "Bill Cosby"
+    },
+    {
+      qoute: "Tomorrow is often the busiest day of the week",
+      author: "Spanish Proverb"
+    },
+    {
+      qoute: "  Be yourself; everyone else is already taken",
+      author: "Oscar Wilde"
+    },
+    {
+      qoute: "There is a great difference between worry and concern. A worried person sees a problem, and a concerned person solves a problem",
+      author: "Harold Stephens"
+    },
+    {
+      qoute: "It is easier to fight for one’s principles than to live up to them",
+      author: "Alfred Adler"
+    },
+    {
+      qoute: "I hear: I forget / I see: I remember / I do: I understand",
+      author: "Chinese Proverb"
+    },
+    {
+      qoute: "Discipline is just choosing between what you want now and what you want most",
+      author: "Unknown Author"
+    },
+    {
+      qoute: "The very best thing you can do for the whole world is to make the most of yourself",
+      author: "Wallace Wattles"
+    },
+    {
+      qoute: "Good judgment comes from experience, and experience comes from bad judgment",
+      author: "Barry LePatner"
+    },
+    {
+      qoute: "When I do good, I feel good; when I do bad, I feel bad, and that is my religion",
+      author: "Abraham Lincoln"
+    },
+    {
+      qoute: "  Success consists of going from failure to failure without loss of enthusiasm",
+      author: "Winston Churchill"
+    },
+    {
+      qoute: "If it weren’t for my lawyer, I’d still be in prison. It went a lot faster with two people digging",
+      author: "Joe Martin"
+    },
+    {
+      qoute: "Acquaintance, n.: A person whom we know well enough to borrow from, but not well enough to lend to",
+      author: "Ambrose Bierce"
+    },
+    {
+      qoute: "I like long walks, especially when they are taken by people who annoy me",
+      author: "Noel Coward"
+    },
+    {
+      qoute: "The difference between death and taxes is death doesn’t get worse every time Congress meets",
+      author: "Will Rogers"
+    },
+    {
+      qoute: "You know you’re getting old when you stop to tie your shoelaces and wonder what else you could do while you’re down there",
+      author: "George Burns"
+    },
+    {
+      qoute: "Time flies like an arrow; fruit flies like a banana",
+      authour: "Groucho Marx" },
+    {
+      qoute: "Those are my principles. If you don’t like them I have others",
+      author: "Groucho Marx"
+    },
+    {
+      qoute: "Somewhere on this globe, every ten seconds, there is a woman giving birth to a child. She must be found and stopped",
+      authour: "Sam Levenson" },
+    {
+      qoute: "Quidquid latine dictum sit, altum sonatur. (Whatever is said in Latin sounds profound",
+      author: "Unknown Author"
+    },
+    {
+      qoute: "The most remarkable thing about my mother is that for thirty years she served the family nothing but leftovers. The original meal has never been found",
+      author: "Calvin Trillin"
+    },
+    {
+      qoute: "The tooth fairy teaches children that they can sell body parts for money",
+      author: "David Richerby"
+    }
+  },
+  july:{
+    {
+      qoute:"Spread love everywhere you go. Let no one ever come to you without leaving happier",
+      author: "Mother Teresa"
+    },
+    {
+      qoute:"When you reach the end of your rope, tie a knot in it and hang on",
+      author: "Franklin D. Roosevelt"
+    },
+    {
+      qoute:"Always remember that you are absolutely unique. Just like everyone else",
+      author: "Margaret Mead"
+    },
+    {
+      qoute:"Don't judge each day by the harvest you reap but by the seeds that you plant",
+      author: "Robert Louis Stevenson"
+    },
+    {
+      qoute:"The future belongs to those who believe in the beauty of their dreams",
+      author: "Eleanor Roosevelt"
+    },
+    {
+      qoute:"Tell me and I forget. Teach me and I remember. Involve me and I learn",
+      author: "Benjamin Franklin"
+    },
+    {
+      qoute:"The best and most beautiful things in the world cannot be seen or even touched — they must be felt with the heart",
+      author: "Helen Keller"
+    },
+    {
+      qoute:"It is during our darkest moments that we must focus to see the light",
+      author: "Aristotle"
+    },
+    {
+      qoute:"Whoever is happy will make others happy too",
+      author: "Anne Frank"
+    },
+    {
+      qoute:"Do not go where the path may lead, go instead where there is no path and leave a trail",
+      author: "Ralph Waldo Emerson"
+    },
+    {
+      qoute:"You will face many defeats in life, but never let yourself be defeated",
+      author: "Maya Angelou"
+    },
+    {
+      qoute:"The greatest glory in living lies not in never falling, but in rising every time we fall",
+      author: "Nelson Mandela"
+    },
+    {
+      qoute:"In the end, it's not the years in your life that count. It's the life in your years",
+      author: "Abraham Lincoln"
+    },
+    {
+      qoute:"Never let the fear of striking out keep you from playing the game",
+      author: "Babe Ruth"
+    },
+    {
+      qoute:"Life is either a daring adventure or nothing at all",
+      author: "Helen Keller"
+    },
+    {
+      qoute:"Many of life's failures are people who did not realize how close they were to success when they gave up",
+      author: "Thomas A. Edison"
+    },
+    {
+      qoute:"You have brains in your head. You have feet in your shoes. You can steer yourself any direction you choose",
+      author: "Dr. Seuss"
+    },
+    {
+      qoute:"If life were predictable it would cease to be life and be without flavor.",
+      author: "Eleanor Roosevelt"
+    },
+    {
+      qoute:"Life is a succession of lessons which must be lived to be understood.",
+      author: "Ralph Waldo Emerson"
+    },
+    {
+      qoute:"Life is never fair, and perhaps it is a good thing for most of us that it is not",
+      author: "Oscar Wilde"
+    },
+    {
+      qoute:"The only impossible journey is the one you never begin",
+      author: "Tony Robbins"
+    },
+    {
+      qoute:"In this life we cannot do great things. We can only do small things with great love",
+      author: "Mother Teresa"
+    },
+    {
+      qoute:"Only a life lived for others is a life worthwhile",
+      author: "Albert Einstein"
+    },
+    {
+      qoute:"The purpose of our lives is to be happy",
+      author: "Dalai Lama"
+    },
+    {
+      qoute:"Life is what happens when you're busy making other plans",
+      author: "John Lennon"
+    },
+    {
+      qoute:"You only live once, but if you do it right, once is enough",
+      author: "Mae West"
+    },
+    {
+      qoute:"Live in the sunshine, swim the sea, drink the wild air",
+      author: "Ralph Waldo Emerson"
+    },
+    {
+      qoute:"Go confidently in the direction of your dreams! Live the life you've imagined",
+      author: "Henry David Thoreau"
+    },
+    {
+      qoute:"Life is really simple, but we insist on making it complicated",
+      author: "Confucius"
+    },
+    {
+      qoute:"May you live all the days of your life",
+      author: "Jonathan Swift"
+    },
+    {
+      qoute:"Life itself is the most wonderful fairy tale",
+      author: "Hans Christian Andersen"
+    }
+  }
+
+};
+
+
+
+
+Do not let making a living prevent you from making a life. -John Wooden
+Life is ours to be spent, not to be saved. -D. H. Lawrence

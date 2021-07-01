@@ -1,158 +1,149 @@
-$(document).ready(function(){
-    $('.answers').css('display', 'none');
+function toogleAnswer(e) {
+    let o = document.getElementById(`question${e}`),
+        t = document.getElementById(`answer${e}`),
+        r = document.getElementById(`FAQ-${e}`);
+    "block" == t.style.display || "" == t.style.display
+        ? ((t.style.display = "none"), o.classList.remove("rotate"), (o.style.borderBottom = "2px solid grey"), (r.style.borderBottom = "0"))
+        : ((t.style.display = "block"), o.classList.add("rotate"), (o.style.border = "0"), (r.style.borderBottom = "2px solid grey"));
+}
+function goTo(e) {
+    window.location = `./${e}`;
+}
+$(document).ready(function () {
+    $(".answers").css("display", "none");
 });
-function toogleAnswer(FAQID){
-  let question = document.getElementById(`question${FAQID}`)
-  let answers = document.getElementById(`answer${FAQID}`);
-  let FaQS = document.getElementById(`FAQ-${FAQID}`);
-  if (answers.style.display == "block" || answers.style.display == "") {
-    answers.style.display = "none";
-    question.classList.remove("rotate");
-    question.style.borderBottom ="2px solid grey";
-    FaQS.style.borderBottom = "0";
-
-  }else {
-    answers.style.display = "block";
-    question.classList.add("rotate");
-    question.style.border ="0";
-    FaQS.style.borderBottom = "2px solid grey";
-  }
-}
-function goTo(link){
-  window.location = `./${link}`;
-}
-let Qplace = document.getElementById('qoute');
-let Qauthor = document.getElementById('qouteWriter');
-let date = new Date().getDate();
+let Qplace = document.getElementById("qoute"),
+    Qauthor = document.getElementById("qouteWriter");
+const date = new Date().getDate();
 let Qoutes = [
   {
-    qoute:"Eighty percent of success is showing up",
-    authour:"Woody Allen"
+    qoute:"",
+    author:""
   },
   {
-    qoute:"I respect faith, but doubt is what gets you an education",
-    authour:"Wilson Mizner"
+    qoute:"Spread love everywhere you go. Let no one ever come to you without leaving happier",
+    author: "Mother Teresa"
   },
   {
-    qoute:"  It’s not that I’m so smart, it’s just that I stay with problems longer",
-    authour:"Albert Einstein"
+    qoute:"When you reach the end of your rope, tie a knot in it and hang on",
+    author: "Franklin D. Roosevelt"
   },
   {
-    qoute:"The greatest obstacle to discovery is not ignorance; it is the illusion of knowledge",
-    authour:"Daniel J. Boorstin"
+    qoute:"Always remember that you are absolutely unique. Just like everyone else",
+    author: "Margaret Mead"
   },
   {
-    qoute:"The pessimist complains about the wind; the optimist expects it to change; the realist adjusts the sails",
-    authour:"William Arthur Ward"
+    qoute:"Don't judge each day by the harvest you reap but by the seeds that you plant",
+    author: "Robert Louis Stevenson"
   },
   {
-    qoute:"If you don’t make mistakes, you’re not working on hard enough problems. And that’s a big mistake",
-    authour:"Frank Wilczek"
+    qoute:"The future belongs to those who believe in the beauty of their dreams",
+    author: "Eleanor Roosevelt"
   },
   {
-    qoute:" You can never get enough of what you don’t really need",
-    authour:"Eric Hoffer"
+    qoute:"Tell me and I forget. Teach me and I remember. Involve me and I learn",
+    author: "Benjamin Franklin"
   },
   {
-    qoute:"Insanity: doing the same thing over and over again and expecting different results",
-    authour:"Albert Einstein"
+    qoute:"The best and most beautiful things in the world cannot be seen or even touched — they must be felt with the heart",
+    author: "Helen Keller"
   },
   {
-    qoute:"Do not confuse motion and progress. A rocking horse keeps moving but does not make any progress",
-    authour:"Alfred A. Montapert"
+    qoute:"It is during our darkest moments that we must focus to see the light",
+    author: "Aristotle"
   },
   {
-    qoute:"I don’t know the key to success, but the key to failure is trying to please everybody",
-    authour:"Bill Cosby"
+    qoute:"Whoever is happy will make others happy too",
+    author: "Anne Frank"
   },
   {
-    qoute:"Tomorrow is often the busiest day of the week",
-    authour:"Spanish Proverb"
+    qoute:"Do not go where the path may lead, go instead where there is no path and leave a trail",
+    author: "Ralph Waldo Emerson"
   },
   {
-    qoute:"  Be yourself; everyone else is already taken",
-    authour:"Oscar Wilde"
+    qoute:"You will face many defeats in life, but never let yourself be defeated",
+    author: "Maya Angelou"
   },
   {
-    qoute:"There is a great difference between worry and concern. A worried person sees a problem, and a concerned person solves a problem",
-    authour:"Harold Stephens"
+    qoute:"The greatest glory in living lies not in never falling, but in rising every time we fall",
+    author: "Nelson Mandela"
   },
   {
-    qoute:"It is easier to fight for one’s principles than to live up to them",
-    authour:"Alfred Adler"
+    qoute:"In the end, it's not the years in your life that count. It's the life in your years",
+    author: "Abraham Lincoln"
   },
   {
-    qoute:"I hear: I forget / I see: I remember / I do: I understand",
-    authour:"Chinese Proverb"
-  },
-   {
-     qoute:"The best way to earn money is to tel other people how to earn money",
-     authour:"Shafiq Malik"
-   },
-  {
-    qoute:"Discipline is just choosing between what you want now and what you want most",
-    authour:"Unknown Author"
+    qoute:"Never let the fear of striking out keep you from playing the game",
+    author: "Babe Ruth"
   },
   {
-    qoute:"The very best thing you can do for the whole world is to make the most of yourself",
-    authour:"Wallace Wattles"
+    qoute:"Life is either a daring adventure or nothing at all",
+    author: "Helen Keller"
   },
   {
-    qoute:"Good judgment comes from experience, and experience comes from bad judgment",
-    authour:"Barry LePatner"
+    qoute:"Many of life's failures are people who did not realize how close they were to success when they gave up",
+    author: "Thomas A. Edison"
   },
   {
-    qoute:"When I do good, I feel good; when I do bad, I feel bad, and that is my religion",
-    authour:"Abraham Lincoln"
+    qoute:"You have brains in your head. You have feet in your shoes. You can steer yourself any direction you choose",
+    author: "Dr. Seuss"
   },
   {
-    qoute:"Success consists of going from failure to failure without loss of enthusiasm",
-    authour:"Winston Churchill"
+    qoute:"If life were predictable it would cease to be life and be without flavor.",
+    author: "Eleanor Roosevelt"
   },
   {
-    qoute:"If it weren’t for my lawyer, I’d still be in prison. It went a lot faster with two people digging",
-    authour:"Joe Martin"
+    qoute:"Life is a succession of lessons which must be lived to be understood.",
+    author: "Ralph Waldo Emerson"
   },
   {
-    qoute:"Acquaintance, n.: A person whom we know well enough to borrow from, but not well enough to lend to",
-    authour:"Ambrose Bierce"
+    qoute:"Life is never fair, and perhaps it is a good thing for most of us that it is not",
+    author: "Oscar Wilde"
   },
   {
-    qoute:"I like long walks, especially when they are taken by people who annoy me",
-    authour:"Noel Coward"
+    qoute:"The only impossible journey is the one you never begin",
+    author: "Tony Robbins"
   },
   {
-    qoute:"The difference between death and taxes is death doesn’t get worse every time Congress meets",
-    authour:"Will Rogers"
+    qoute:"In this life we cannot do great things. We can only do small things with great love",
+    author: "Mother Teresa"
   },
   {
-    qoute:"You know you’re getting old when you stop to tie your shoelaces and wonder what else you could do while you’re down there",
-    authour:"George Burns"
+    qoute:"Only a life lived for others is a life worthwhile",
+    author: "Albert Einstein"
   },
   {
-    qoute:"Time flies like an arrow; fruit flies like a banana",
-    authour:"Groucho Marx"
+    qoute:"The purpose of our lives is to be happy",
+    author: "Dalai Lama"
   },
   {
-    qoute:"Those are my principles. If you don’t like them I have others",
-    authour:"Groucho Marx"
+    qoute:"Life is what happens when you're busy making other plans",
+    author: "John Lennon"
   },
   {
-    qoute:"Somewhere on this globe, every ten seconds, there is a woman giving birth to a child. She must be found and stopped",
-    authour:"Sam Levenson"
+    qoute:"You only live once, but if you do it right, once is enough",
+    author: "Mae West"
   },
   {
-    qoute:"Quidquid latine dictum sit, altum sonatur. (Whatever is said in Latin sounds profound",
-    authour:"Unknown Author"
+    qoute:"Live in the sunshine, swim the sea, drink the wild air",
+    author: "Ralph Waldo Emerson"
   },
   {
-    qoute:"The most remarkable thing about my mother is that for thirty years she served the family nothing but leftovers. The original meal has never been found",
-    authour:"Calvin Trillin"
+    qoute:"Go confidently in the direction of your dreams! Live the life you've imagined",
+    author: "Henry David Thoreau"
   },
   {
-    qoute:"The tooth fairy teaches children that they can sell body parts for money",
-    authour:"David Richerby"
-  }
+    qoute:"Life is really simple, but we insist on making it complicated",
+    author: "Confucius"
+  },
+  {
+    qoute:"May you live all the days of your life",
+    author: "Jonathan Swift"
+  },
+  {
+    qoute:"Life itself is the most wonderful fairy tale",
+    author: "Hans Christian Andersen"
+  },
 ];
-Qplace.innerHTML = Qoutes[date].qoute;
-Qauthor.innerHTML = Qoutes[date].authour;
+Qplace.innerHTML = `<q>${Qoutes[date].qoute}</q>`;
+Qauthor.innerHTML = `__${Qoutes[date].authour}`;
