@@ -138,6 +138,7 @@ h2, h3{
   display: inline-block;
   font-size: 1.5rem;
   border-left: 12px solid indigo;
+  border-right: 12px solid indigo;
   padding: .2rem .8rem;
 }
 .breadcrumb{
