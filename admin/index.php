@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+<?php
+include 'app.php';
+ ?>
 <html>
 <head>
   <!-- :: Meta -->
@@ -19,6 +22,7 @@
   <meta name="theme-color" content="#222">
   <link rel="stylesheet" href="../assets/css/index/index.min.css">
   <link rel="stylesheet" href="../assets/css/lib/bootstrap.css">
+  <link rel="stylesheet" href="style.css?version=1.1">
   <link rel="stylesheet" href="../assets/css/lib/font-awesome.min.css">
   <link rel="stylesheet" href="../assets/css/theme/navfooter.min.css">
   <link href='./favicon.ico' rel='icon' sizes="32x32"  type='image/x-icon'/>
@@ -69,13 +73,40 @@
     </div>
   </div>
 </nav>
-<div class="icontainer">
-    <div class="viewable">
-    </div>
-    <div class="viewable">
 
-    </div>
-</div>
+<div class="icontainer row">
+<?php
+foreach ( $GLOBALS['decoded_data'] as $array) {
+  $otjson = file_get_contents("../{$array}/data.json");
+  $otbj = json_decode($otjson);
+  $state = str_replace("-"," ",$array);
+  print '<div class="vx col-lg-12">
+      <div class="area">
+      <span>'.$state.' </span>
+      <div class="lists">';
+foreach ($otbj->published as $otarray) {
+    $to_str = str_replace("-"," ",$otarray);
+    print '<div class="posts">'.$to_str.'</div>';
+    }
+print '
+<form id="create_post">
+<input  type="text" name="" value="">
+<input  type="submit" value="Create" name="submit"></input>
+</form>
+</div></div></div>';
+}
+ ?>
+
+ <div class="vx col-lg-12">
+   <div class="area">
+     <form class="" action="" method="post">
+       <span>Create new folder</span><br><br>
+       <input id="t-1" type="text" name="folder" value="">&nbsp; &nbsp; <input type="submit" name="submit" value="Ceate">
+       <p id="message"> </p>
+   </div>
+ </div>
+ </div>
+
 <!--  Footer -->
 <footer>
   <!-- links -->
@@ -96,10 +127,10 @@
           <div class="col-lg-6 col-md-6 col-sm-7 col-7 mb-lg-0 mb-3">
             <ul class="list-unstyled mb-0">
               <li class="title text-uppercase mb-3">Topics</li>
-              <li><a href="" class="text-uppercase">Blogging</a></li>
-              <li><a href="" class="text-uppercase">Online Earning</a></li>
-              <li><a href="" class="text-uppercase">Investing</a></li>
-              <li><a href="" class="text-uppercase">How to Guides</a></li>
+              <li><a href="../blogging" class="text-uppercase">Blogging</a></li>
+              <li><a href="../investment" class="text-uppercase">Investing</a></li>
+              <li><a href="../how-to-guides" class="text-uppercase">How to Guides</a></li>
+              <li><a href="../online-earning" class="text-uppercase">Online Earning</a></li>
             </ul>
 
           </div>
@@ -143,7 +174,8 @@
 <!-- :: Scripts -->
 <script type="text/javascript" src="../assets/js/lib/jquery-bootstrap-popper.js?version=1.0"></script>
 <script type="text/javascript" src="../assets/js/theme/navbar.min.js?version=1.0"></script>
-<script type="text/javascript" src="./assets/js/index/index.min.js?version=1.0"></script>
+<script type="text/javascript" src="app.js?version=1.0"></script>
+<!-- <script type="text/javascript" src="./assets/js/index/index.min.js?version=1.0"></script> -->
 </body>
 </body>
 </html>

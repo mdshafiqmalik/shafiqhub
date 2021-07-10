@@ -1,0 +1,34 @@
+.icontainer{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+  .area span{
+    padding: .1rem .7rem;
+    background-color: indigo;
+    color: white;
+    text-transform: capitalize;
+  }
+  #create_post{
+    float: right;
+    margin: 1rem;
+  }
+  .vx{
+    padding: 1rem;
+
+  }
+  .area{
+height: 100%;
+    padding: 1rem;
+    background-color:white ;
+  }
+  .lists{
+    margin: 1rem;
+  }
+  .posts{
+    text-transform: capitalize;
+  }
+@media (max-width: 600px) {
+  .icontainer{
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,4 +1,5 @@
 user-agent: *
 disallow: /luckydraw/
 disallow: /bin/
+disallow: /admin/
 sitemap: https://www.shafiqhub.com/sitemap.xml
